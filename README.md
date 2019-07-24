@@ -2,7 +2,7 @@
 Whole-body PBPK model of alfentanil 
 
 <p align="center">
-  <img src="Atazanavir.svg">
+  <img src="Atazanavir.png">
 </p>
 
 
