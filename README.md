@@ -1,5 +1,5 @@
 # Atazanavir-Model
-Whole-body PBPK model of alfentanil 
+Whole-body PBPK model of atazanavir 
 
 <p align="center">
   <img src="Atazanavir.png">
