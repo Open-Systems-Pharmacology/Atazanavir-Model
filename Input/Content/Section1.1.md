@@ -1,0 +1,7 @@
+## 1.1   Materials and Methods
+
+The presented model building and evaluation report evaluates the performance of PBPK model for raltegravir in adults.
+
+Raltegravir (RAL), sold under the brand name Isentress, is an antiretroviral medication used to treat HIV/AIDS by blocking the establishment of post-integration HIV latency . It is also used as part of post exposure prophylaxis, to prevent HIV infection following potential exposure. Raltegravir is only taken orally and is mainly metabolized by UGT1A1 (~70%) [(Kassahun 2007](../input/references.md)).  The final raltegravir model applies metabolism by UGT1A1, and minor involved enzyme UGT1A9 and glomerular filtration and adequately described the pharmacokinetics of raltegravir in adults.
+
+The raltegravir model is a whole-body PBPK model, allowing for dynamic translation between individuals with organs expressing UGT1A1. The raltegravir report demonstrates the level of confidence of the raltegravir PBPK model build with the OSP suite with regard to reliable predictions of Raltegravir PBPK adults during model-informed drug development. The presented raltegravir PBPK model as well as the respective evaluation plan and PBPK report are provided open-source and transparently documented (https://github.com/Incei/Raltegravir-Model).
