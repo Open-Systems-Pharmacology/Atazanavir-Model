@@ -1879,21 +1879,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 115.729,
-              "Max": 194.2215,
+              "Min": 119.091156,
+              "Max": 194.727081,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.004905615,
-              "Max": 10.83339,
+              "Min": 1.33586144,
+              "Max": 13058.0781,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -1923,7 +1923,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nAgarwala2003_400mg\n2019-07-29 13:39"
+          "OriginText": "Atazanavir\nAgarwala2003_400mg\n2019-07-31 17:04"
         }
       ],
       "Interactions": [
@@ -2159,21 +2159,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 117.2744,
-              "Max": 148.5316,
+              "Min": 119.939568,
+              "Max": 145.652512,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.07659008,
-              "Max": 14.03444,
+              "Min": 33.3716927,
+              "Max": 11612.5205,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -2203,7 +2203,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nAgarwala2005a_400mg\n2019-07-29 13:39"
+          "OriginText": "Atazanavir\nAgarwala2005a_400mg\n2019-07-31 17:04"
         }
       ],
       "Interactions": [
@@ -2439,21 +2439,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 117.9058,
-              "Max": 145.3744,
+              "Min": 119.68396,
+              "Max": 145.100159,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.2664433,
-              "Max": 6.829753,
+              "Min": 93.98233,
+              "Max": 23427.4375,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -2483,7 +2483,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nAgarwala2005b_400mg\n2019-07-29 13:39"
+          "OriginText": "Atazanavir\nAgarwala2005b_400mg\n2019-07-31 17:04"
         }
       ],
       "Interactions": [
@@ -2734,21 +2734,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 140.6575,
-              "Max": 172.4832,
+              "Min": 143.1969,
+              "Max": 169.682434,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.09144089,
-              "Max": 12.65344,
+              "Min": 46.4260559,
+              "Max": 11850.2373,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -2778,7 +2778,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nMartin2008_400mg\n2019-07-29 16:09"
+          "OriginText": "Atazanavir\nMartin2008_400mg\n2019-07-31 17:09"
         }
       ],
       "Interactions": [
@@ -3015,21 +3015,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 118.1957,
-              "Max": 145.422,
+              "Min": 119.324654,
+              "Max": 145.261978,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.07366858,
-              "Max": 18.9237,
+              "Min": 75.47388,
+              "Max": 6010.17773,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -3070,7 +3070,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nZhu2011_400mg\n2019-07-29 13:46"
+          "OriginText": "Atazanavir\nZhu2011_400mg\n2019-07-31 17:11"
         }
       ],
       "Interactions": [
@@ -3294,21 +3294,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 95.31647,
-              "Max": 121.3004,
+              "Min": 95.61145,
+              "Max": 121.965691,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.02714546,
-              "Max": 3.286363,
+              "Min": 1.41679752,
+              "Max": 13148.0566,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -3338,7 +3338,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nFDA-ClinPharmReview_AI424-040_200mg\n2019-07-29 13:41"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_200mg\n2019-07-31 17:06"
         }
       ],
       "Interactions": [
@@ -3562,21 +3562,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 94.16508,
-              "Max": 127.4921,
+              "Min": 94.86275,
+              "Max": 122.278381,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.07979063,
-              "Max": 7.79619,
+              "Min": 18.5098724,
+              "Max": 30001.9961,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -3606,7 +3606,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nFDA-ClinPharmReview_AI424-040_400mg\n2019-07-29 16:07"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_400mg\n2019-07-31 17:06"
         }
       ],
       "Interactions": [
@@ -3830,21 +3830,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 96.28777,
-              "Max": 120.3742,
+              "Min": 95.30841,
+              "Max": 120.661217,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 1.129912,
-              "Max": 18.06746,
+              "Min": 102.83329,
+              "Max": 57656.23,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -3874,7 +3874,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nFDA-ClinPharmReview_AI424-040_800mg\n2019-07-29 16:08"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_800mg\n2019-07-31 17:06"
         }
       ],
       "Interactions": [
@@ -4001,7 +4001,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -4041,7 +4041,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir_final\nFDA-ClinPharmReview_AI424-014_400mg_YoungFemales\n2019-07-29 17:46"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-014_400mg_YoungFemales\n2019-07-31 17:02"
         }
       ],
       "Interactions": [
@@ -4175,21 +4175,17 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": -4.853333,
-              "Max": 28.46667,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.01722365,
-              "Max": 3.721563,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -4201,8 +4197,6 @@
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "Min": 9.489025E-05,
-              "Max": 0.02050323,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
@@ -4261,7 +4255,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir_final\nFDA-ClinPharmReview_AI424-014_400mg_YoungMales\n2019-07-29 17:46"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-014_400mg_YoungMales\n2019-07-31 17:02"
         }
       ],
       "Interactions": [
@@ -4620,21 +4614,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 262.7631,
-              "Max": 281.7994,
+              "Min": 263.5325,
+              "Max": 276.472443,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "ng/ml",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 764.1708,
-              "Max": 8061.239,
+              "Min": 761.7637,
+              "Max": 8833.85449,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -4664,7 +4658,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nZhu2010_300mg_Atazanavir\n2019-07-29 15:28"
+          "OriginText": "Atazanavir\nZhu2010_300mg_Atazanavir\n2019-07-31 17:11"
         }
       ],
       "Interactions": [
@@ -4802,7 +4796,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -4810,16 +4804,6 @@
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -4852,7 +4836,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir_final\nFDA-ClinPharmReview_AI424-015_400mg_NormalSubjects\n2019-07-29 17:50"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-015_400mg_NormalSubjects\n2019-07-31 17:02"
         }
       ],
       "Interactions": [
@@ -4973,7 +4957,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -4981,16 +4965,6 @@
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -5023,7 +4997,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir_final\nFDA-ClinPharmReview_AI424-004_400mg_TreatmentA\n2019-07-29 17:46"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-004_400mg_TreatmentA\n2019-07-31 17:01"
         }
       ],
       "Interactions": [
@@ -5514,21 +5488,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 162.7884,
-              "Max": 186.0845,
+              "Min": 166.6625,
+              "Max": 182.410675,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.1413618,
-              "Max": 12.44193,
+              "Min": 162.042191,
+              "Max": 6661.36963,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -5558,7 +5532,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nAcosta2007_300mg\n2019-07-30 09:49"
+          "OriginText": "Atazanavir\nAcosta2007_300mg\n2019-07-31 17:03"
         }
       ],
       "Interactions": [
@@ -5795,21 +5769,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 118.5373,
-              "Max": 149.4788,
+              "Min": 119.130211,
+              "Max": 145.630814,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.02778691,
-              "Max": 3.401563,
+              "Min": 6.341982,
+              "Max": 44408.0625,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -5850,7 +5824,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nFDA-ClinPharmReview_AI424-028_200mg\n2019-07-29 15:52"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-028_200mg\n2019-07-31 17:04"
         }
       ],
       "Interactions": [
@@ -6087,21 +6061,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 118.2216,
-              "Max": 146.6373,
+              "Min": 119.63324,
+              "Max": 145.225662,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.1914686,
-              "Max": 9.440516,
+              "Min": 64.2735062,
+              "Max": 25042.3242,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -6142,7 +6116,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nFDA-ClinPharmReview_AI424-028_400mg\n2019-07-29 13:41"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-028_400mg\n2019-07-31 17:05"
         }
       ],
       "Interactions": [
@@ -6438,21 +6412,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 213.5932,
-              "Max": 240.7027,
+              "Min": 215.663818,
+              "Max": 240.486923,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.002471656,
-              "Max": 9.924288,
+              "Min": 0.720249832,
+              "Max": 5454.241,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -6482,7 +6456,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nFDA-ClinPharmReview_AI424-056_300mg\n2019-07-29 13:43"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-056_300mg\n2019-07-31 17:07"
         }
       ],
       "Interactions": [
@@ -6718,21 +6692,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 114.2347,
-              "Max": 198.3917,
+              "Min": 117.523369,
+              "Max": 193.097824,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.005789065,
-              "Max": 9.533953,
+              "Min": 2.998964,
+              "Max": 5791.73047,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -6762,7 +6736,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nFDA-ClinPharmReview_AI424-076_400mg\n2019-07-29 13:44"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-076_400mg\n2019-07-31 17:08"
         }
       ],
       "Interactions": [
@@ -6998,21 +6972,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 112.9409,
-              "Max": 197.0133,
+              "Min": 117.922974,
+              "Max": 193.757355,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.01369614,
-              "Max": 47.78296,
+              "Min": 17.2726288,
+              "Max": 25992.8477,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -7042,7 +7016,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir_final\nFDA-ClinPharmReview_AI424-076_800mg\n2019-07-29 13:44"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-076_800mg\n2019-07-31 17:09"
         }
       ],
       "Interactions": [
@@ -8223,39 +8197,6 @@
                   "Color": "#C00000",
                   "LegendIndex": 40
                 }
-              },
-              {
-                "Name": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-                "X": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
-                "Y": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
-                "CurveOptions": {
-                  "VisibleInLegend": false,
-                  "Color": "#80FF80",
-                  "LegendIndex": 41,
-                  "LineStyle": "None",
-                  "Symbol": "Circle"
-                }
-              },
-              {
-                "Name": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-                "X": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
-                "Y": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
-                "CurveOptions": {
-                  "VisibleInLegend": false,
-                  "Color": "#80FF80",
-                  "LegendIndex": 42,
-                  "LineStyle": "None",
-                  "Symbol": "Circle"
-                }
-              },
-              {
-                "Name": "Zhu2011_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
-                "X": "Time",
-                "Y": "Zhu2011_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
-                "CurveOptions": {
-                  "Color": "#80FF80",
-                  "LegendIndex": 43
-                }
               }
             ],
             "Name": "Time Profile",
@@ -8398,27 +8339,27 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.390907973,
-            1.2731961,
-            3.204996,
-            5.36542,
-            5.139912,
-            4.058743,
-            3.274549,
-            2.42446184,
-            1.719615,
-            1.21968293,
-            0.963125646,
-            0.6135907,
-            0.474231839,
-            0.390907973,
-            0.1365206,
-            0.04977024,
-            0.01463865,
-            0.005003808
+            390.908,
+            1273.196,
+            3204.996,
+            5365.42,
+            5139.912,
+            4058.743,
+            3274.549,
+            2424.462,
+            1719.615,
+            1219.683,
+            963.1257,
+            613.5907,
+            474.2318,
+            390.908,
+            136.5206,
+            49.77024,
+            14.63865,
+            5.003808
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -8547,18 +8488,18 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.345626,
-            5.943076,
-            4.274498,
-            2.21122432,
-            1.45828307,
-            1.10487807,
-            0.8818324,
-            0.5332493,
-            0.345626
+            345.626,
+            5943.076,
+            4274.498,
+            2211.224,
+            1458.283,
+            1104.878,
+            881.8324,
+            533.2493,
+            345.626
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -8678,18 +8619,18 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.2687558,
-            4.674388,
-            3.333771,
-            1.876698,
-            1.432067,
-            1.02134907,
-            0.779369056,
-            0.5195129,
-            0.302506
+            268.7558,
+            4674.388,
+            3333.771,
+            1876.698,
+            1432.067,
+            1021.349,
+            779.369,
+            519.5129,
+            302.506
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -8841,22 +8782,22 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.3901345,
-            0.4843049,
-            2.973094,
-            4.29148,
-            4.681614,
-            4.278027,
-            3.484305,
-            1.97757888,
-            1.479821,
-            1.210762,
-            0.9282511,
-            0.5919282,
-            0.3766816
+            390.134521,
+            484.3049,
+            2973.094,
+            4291.48,
+            4681.614,
+            4278.027,
+            3484.305,
+            1977.57886,
+            1479.82092,
+            1210.762,
+            928.2511,
+            591.9282,
+            376.68158
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -9011,21 +8952,21 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.3051643,
-            0.28169018,
-            1.983568,
-            3.169014,
-            3.462441,
-            3.65023518,
-            3.497653,
-            2.699531,
-            1.97183108,
-            1.314554,
-            0.809859037,
-            0.293427169
+            305.1643,
+            281.6902,
+            1983.56787,
+            3169.014,
+            3462.441,
+            3650.235,
+            3497.653,
+            2699.531,
+            1971.83118,
+            1314.554,
+            809.8591,
+            293.4272
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -9179,21 +9120,21 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.308300436,
-            0.308300436,
-            3.652174,
-            4.49407053,
-            4.470356,
-            4.434783,
-            3.806324,
-            2.09881377,
-            1.3992089,
-            0.7826087,
-            0.486165971,
-            0.3201581
+            308.3004,
+            308.3004,
+            3652.174,
+            4494.071,
+            4470.356,
+            4434.783,
+            3806.324,
+            2098.814,
+            1399.209,
+            782.6087,
+            486.165955,
+            320.1581
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -10043,24 +9984,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.0480940826,
-            0.04614355,
-            0.231440708,
-            0.7544552,
-            1.22753,
-            1.12962091,
-            1.2453891,
-            0.809909165,
-            0.6764423,
-            0.505493,
-            0.3243893,
-            0.2294415,
-            0.157832012,
-            0.08947934,
-            0.04127644
+            48.09408,
+            46.14355,
+            231.4407,
+            754.4552,
+            1227.53,
+            1129.621,
+            1245.389,
+            809.9092,
+            676.4423,
+            505.493,
+            324.3893,
+            229.4415,
+            157.832,
+            89.47934,
+            41.27644
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -10220,24 +10161,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.2098598,
-            0.215839088,
-            1.24397588,
-            3.384883,
-            4.28824043,
-            4.001618,
-            3.73389983,
-            3.38980579,
-            2.39614987,
-            1.790681,
-            1.284251,
-            0.9210682,
-            0.642482,
-            0.4014605,
-            0.215780184
+            209.8598,
+            215.8391,
+            1243.976,
+            3384.883,
+            4288.24,
+            4001.618,
+            3733.9,
+            3389.806,
+            2396.15,
+            1790.681,
+            1284.251,
+            921.0682,
+            642.482,
+            401.4605,
+            215.7802
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -10397,24 +10338,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            1.08193791,
-            1.243637,
-            4.59424353,
-            8.013163,
-            8.95782852,
-            8.017349,
-            7.586017,
-            6.605524,
-            5.44071,
-            4.544019,
-            3.693165,
-            2.87911,
-            2.34011221,
-            1.63413906,
-            1.052324
+            1081.938,
+            1243.637,
+            4594.243,
+            8013.162,
+            8957.829,
+            8017.34961,
+            7586.017,
+            6605.524,
+            5440.71,
+            4544.019,
+            3693.165,
+            2879.11,
+            2340.112,
+            1634.139,
+            1052.324
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -10918,23 +10859,23 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.05230854,
-            0.484561324,
-            1.774314,
-            2.93255186,
-            3.0067482,
-            2.523798,
-            2.035832,
-            1.36387408,
-            0.94840306,
-            0.5262913,
-            0.3909384,
-            0.243110612,
-            0.1680946,
-            0.1087425
+            52.30854,
+            484.56134,
+            1774.314,
+            2932.552,
+            3006.748,
+            2523.798,
+            2035.832,
+            1363.874,
+            948.4031,
+            526.2913,
+            390.9384,
+            243.110611,
+            168.0946,
+            108.7425
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -11059,24 +11000,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.0259421282,
-            0.5539344,
-            1.495321,
-            1.947099,
-            2.023281,
-            1.993596,
-            1.52488494,
-            1.24664092,
-            0.9043038,
-            0.6372207,
-            0.414461225,
-            0.280626565,
-            0.1528258,
-            0.0889423043,
-            0.06148055
+            25.94213,
+            553.9344,
+            1495.321,
+            1947.099,
+            2023.281,
+            1993.59607,
+            1524.885,
+            1246.641,
+            904.3038,
+            637.2207,
+            414.4612,
+            280.6266,
+            152.8258,
+            88.9423,
+            61.48055
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -11238,26 +11179,26 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.0009010012,
-            0.01371434,
-            0.1609762,
-            0.5417439,
-            1.161055,
-            1.612042,
-            1.306997,
-            1.006389,
-            0.788139939,
-            0.5272567,
-            0.248676687,
-            0.1253634,
-            0.0738563,
-            0.02193046,
-            0.009213131,
-            0.002002263,
-            0.0008708458
+            0.9010012,
+            13.71434,
+            160.9762,
+            541.7439,
+            1161.055,
+            1612.042,
+            1306.997,
+            1006.389,
+            788.1399,
+            527.2567,
+            248.676682,
+            125.3634,
+            73.8563,
+            21.93046,
+            9.213131,
+            2.002263,
+            0.8708458
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -11385,24 +11326,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.00811301,
-            0.107313596,
-            0.5022855,
-            1.014487,
-            1.295859,
-            1.147174,
-            0.9267733,
-            0.6937596,
-            0.5436467,
-            0.4131931,
-            0.2823701,
-            0.1959386,
-            0.1318606,
-            0.05373392,
-            0.03410638
+            8.113009,
+            107.3136,
+            502.2855,
+            1014.487,
+            1295.859,
+            1147.174,
+            926.7733,
+            693.7596,
+            543.6467,
+            413.1931,
+            282.3701,
+            195.9386,
+            131.8606,
+            53.73392,
+            34.10638
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -11555,17 +11496,17 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            1.58711207,
-            2.455847,
-            5.229117,
-            4.560859,
-            3.97613382,
-            2.52267313,
-            1.93794787,
-            1.26968992
+            1587.112,
+            2455.847,
+            5229.117,
+            4560.859,
+            3976.134,
+            2522.673,
+            1937.94788,
+            1269.69
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -11713,19 +11654,19 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            1.188273,
-            1.44016707,
-            2.60912418,
-            3.069571,
-            3.402505,
-            2.842337,
-            2.20712686,
-            1.538141,
-            1.073286,
-            0.9089452
+            1188.273,
+            1440.167,
+            2609.124,
+            3069.571,
+            3402.505,
+            2842.337,
+            2207.127,
+            1538.141,
+            1073.286,
+            908.9452
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -11846,24 +11787,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.05314065,
-            0.04231789,
-            0.1554463,
-            0.5321257,
-            1.15752506,
-            1.53488791,
-            1.368999,
-            1.014276,
-            0.8300467,
-            0.6603217,
-            0.4119116,
-            0.2606814,
-            0.1745166,
-            0.0793602839,
-            0.03523748
+            53.14065,
+            42.31789,
+            155.4463,
+            532.1257,
+            1157.525,
+            1534.888,
+            1368.999,
+            1014.276,
+            830.0467,
+            660.3217,
+            411.9116,
+            260.6814,
+            174.5166,
+            79.36028,
+            35.23748
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -11989,24 +11930,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.0362584479,
-            0.0377876572,
-            0.0974401459,
-            0.517340243,
-            1.12507391,
-            1.241138,
-            1.204957,
-            0.8929667,
-            0.7625662,
-            0.581494868,
-            0.3947374,
-            0.249876514,
-            0.162283108,
-            0.08282365,
-            0.03146925
+            36.25845,
+            37.78766,
+            97.44014,
+            517.3403,
+            1125.074,
+            1241.138,
+            1204.957,
+            892.9667,
+            762.5662,
+            581.4949,
+            394.7374,
+            249.876511,
+            162.2831,
+            82.82365,
+            31.4692478
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -12132,24 +12073,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.1842253,
-            0.159659311,
-            1.200078,
-            4.75857639,
-            5.401809,
-            4.955954,
-            4.354939,
-            3.663426,
-            3.125826,
-            2.28055215,
-            1.50329387,
-            0.9227382,
-            0.681405246,
-            0.2876778,
-            0.144684613
+            184.2253,
+            159.6593,
+            1200.078,
+            4758.576,
+            5401.809,
+            4955.954,
+            4354.939,
+            3663.426,
+            3125.826,
+            2280.552,
+            1503.294,
+            922.7382,
+            681.4053,
+            287.6778,
+            144.6846
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -12275,24 +12216,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.224809,
-            0.294169575,
-            0.7724532,
-            2.73343086,
-            4.30313,
-            4.816469,
-            4.29295,
-            3.460545,
-            2.788849,
-            2.064852,
-            1.3804189,
-            0.949460566,
-            0.6910724,
-            0.3663426,
-            0.17161
+            224.809,
+            294.1696,
+            772.4532,
+            2733.431,
+            4303.13,
+            4816.469,
+            4292.95,
+            3460.545,
+            2788.849,
+            2064.852,
+            1380.419,
+            949.4606,
+            691.0724,
+            366.3426,
+            171.61
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -12452,24 +12393,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.1531764,
-            0.197757408,
-            0.6693192,
-            1.40499806,
-            2.18846416,
-            2.94868183,
-            3.155993,
-            2.400365,
-            1.8892,
-            1.29715407,
-            0.9130627,
-            0.626468062,
-            0.4190316,
-            0.221953511,
-            0.13363041
+            153.1764,
+            197.7574,
+            669.3192,
+            1404.998,
+            2188.464,
+            2948.682,
+            3155.993,
+            2400.365,
+            1889.2,
+            1297.154,
+            913.0627,
+            626.4681,
+            419.0316,
+            221.9535,
+            133.6304
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -12632,27 +12573,27 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.369267374,
-            1.17472494,
-            3.03925085,
-            5.309809,
-            4.68919,
-            3.734517,
-            2.974325,
-            2.272674,
-            1.598362,
-            1.171611,
-            0.8767704,
-            0.5792286,
-            0.442213416,
-            0.374411,
-            0.132735789,
-            0.04515358,
-            0.01356922,
-            0.004429182
+            369.2674,
+            1174.725,
+            3039.251,
+            5309.809,
+            4689.19,
+            3734.517,
+            2974.325,
+            2272.674,
+            1598.362,
+            1171.611,
+            876.7704,
+            579.2286,
+            442.2134,
+            374.411,
+            132.7358,
+            45.15358,
+            13.56922,
+            4.429182
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -12817,26 +12758,26 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            1.60203,
-            4.05965853,
-            7.546556,
-            10.50189,
-            8.715749,
-            6.523181,
-            5.41460037,
-            4.051994,
-            3.36229587,
-            2.848031,
-            2.08628583,
-            1.766335,
-            1.5910511,
-            0.5087171,
-            0.2359636,
-            0.08718763,
-            0.0267481711
+            1602.03,
+            4059.65869,
+            7546.556,
+            10501.89,
+            8715.749,
+            6523.181,
+            5414.6,
+            4051.994,
+            3362.296,
+            2848.031,
+            2086.286,
+            1766.335,
+            1591.051,
+            508.7171,
+            235.9636,
+            87.18763,
+            26.74817
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
