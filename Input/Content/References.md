@@ -23,13 +23,17 @@ efficacy and tolerability of atazanavir. *Clin Pharmacokinet.* 2005, 44(10): 103
 
 **Martin** DE, Galbraith H, Schettler J, Ellis C, Doto J. Pharmacokinetic properties and tolerability of bevirimat and atazanavir in healthy volunteers: an open-label, parallel-group study. *Clin Ther.* 2008, 30(10): 1794-1805.
 
-**Open Systems Pharmacology Documentation** (https://docs.open-systems-pharmacology.org/), accessed on 07-30-2019.
+**Open Systems Pharmacology Documentation**. (https://docs.open-systems-pharmacology.org/), accessed on 07-30-2019.
 
 **Perloff** ES, Duan SX, Skolnik PR, Greenblatt DJ, von Moltke LL. Atazanavir: effects on P-glycoprotein transport and CYP3A metabolism in vitro. *Drug Metab Dispos* 2005, 33(6): 764-770.
 
-**PK-Sim Ontogeny Database Version 7.3** (https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/38cf71b384cfc25cfa0ce4d2f3addfd32757e13b/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf), accessed on 07-30-2019.
+**PK-Sim Ontogeny Database Version 7.3**. (https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/38cf71b384cfc25cfa0ce4d2f3addfd32757e13b/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf), accessed on 07-30-2019.
 
-**US Food and Drug Administration**, Reyataz (atazanavir) capsules: Clinical Pharmacology and Biopharmaceutics Review, Application number: 21-567, 2002. Available at: https://www.accessdata.fda.gov/drugsatfda_docs/nda/2003/021567_reyataz_toc.cfm, accessed on 07-30-2019.
+**Rodgers** T, Leahy D, Rowland M. Physiologically Based Pharmacokinetic Modeling 1: Predicting the Tissue Distribution of Moderate-to-Strong Bases. *J Pharm Sci* 2005, 94: 1259-1275.
+
+**Rodgers** T, Rowland M. Physiologically Based Pharmacokinetic Modeling 2: Predicting the Tissue Distribution of Acids, Very Weak Bases, Neutrals and Zwitterions. *J Pharm Sci* 2006, 95: 1238-1257.
+
+**US Food and Drug Administration**. Reyataz (atazanavir) capsules: Clinical Pharmacology and Biopharmaceutics Review, Application number: 21-567, 2002. Available at: https://www.accessdata.fda.gov/drugsatfda_docs/nda/2003/021567_reyataz_toc.cfm, accessed on 07-30-2019.
 
 **Willmann** S, Höhn K, Edginton A, Sevestre M, Solodenko J, Weiss W, Lippert J, Schmitt W. Development of a physiology-based whole-body population model for assessing the influence of individual variability on the pharmacokinetics of drugs. *J Pharmacokinet Pharmacodyn* 2007, 34(3): 401-431.
 
