@@ -3915,60 +3915,6 @@
           ],
           "Name": "Time Profile Analysis",
           "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_200mg\n2019-08-01 13:01"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 95.61145,
-              "Max": 121.9657,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1.416798,
-              "Max": 13148.06,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "FDA-ClinPharmReview_AI424-040_200mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "FDA-ClinPharmReview_AI424-040_200mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "ClinPharmReview, AI424-040, p. 64 - 200 mg - Atazanavir - PO - 200 mg - Plasma - agg. (n=20)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "ClinPharmReview, AI424-040, p. 64 - 200 mg - Atazanavir - PO - 200 mg - Plasma - agg. (n=20)|Time",
-              "Y": "ClinPharmReview, AI424-040, p. 64 - 200 mg - Atazanavir - PO - 200 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_200mg\n2019-08-01 13:01"
         }
       ],
       "Interactions": [
@@ -5080,21 +5026,21 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 117.5234,
-              "Max": 193.0978,
+              "Min": 114.234726,
+              "Max": 197.100418,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µg/l",
+              "Unit": "µmol/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 2.998964,
-              "Max": 5791.73,
+              "Min": 0.0008734266,
+              "Max": 48.4487953,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -5124,7 +5070,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-076_400mg\n2019-08-01 13:07"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-076_400mg\n2019-08-01 13:33"
         }
       ],
       "Interactions": [
@@ -6058,8 +6004,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 263.5325,
-              "Max": 276.4724,
+              "Min": 262.0,
+              "Max": 280.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -6509,6 +6455,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
+              "Min": -0.333739936,
+              "Max": 24.54765,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -6520,6 +6468,8 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
+              "Min": 0.9556164,
+              "Max": 11023.1338,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -6676,6 +6626,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
+              "Min": -0.0295423232,
+              "Max": 24.8051243,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -6687,6 +6639,8 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
+              "Min": 4.844646,
+              "Max": 11613.6514,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -6856,8 +6810,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": -2.53386879,
-              "Max": 172.82785,
+              "Min": 0.0,
+              "Max": 165.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -13887,27 +13841,27 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            369.2674,
-            1174.725,
-            3039.251,
-            5309.809,
-            4689.19,
-            3734.517,
-            2974.325,
-            2272.674,
-            1598.362,
-            1171.611,
-            876.7704,
-            579.2286,
-            442.2134,
-            374.411,
-            132.7358,
-            45.15358,
-            13.56922,
-            4.429182
+            0.369267374,
+            1.17472494,
+            3.03925085,
+            5.309809,
+            4.68919,
+            3.734517,
+            2.974325,
+            2.272674,
+            1.598362,
+            1.171611,
+            0.8767704,
+            0.5792286,
+            0.442213416,
+            0.374411,
+            0.132735789,
+            0.04515358,
+            0.01356922,
+            0.004429182
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
