@@ -1,5 +1,3 @@
-## References
-
 **Acosta** EP, Kendall MA, Gerber JG, Alston-Smith B, Koletar SL, Zolopa AR, et al. Effect of concomitantly administered rifampin on the pharmacokinetics and safety of atazanavir administered twice daily. *Antimicrob Agents Chemother* 2007, 51(9): 3104-3110.
 
 **Agarwala** S, Grasela D, Child M, Geraldes M, Geiger M, O’Mara E. Characterization of the steady-state pharmacokinetic (PK) profile of atazanavir (ATV) beyond the 24-hour 
