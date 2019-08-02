@@ -1,0 +1,174 @@
+
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="..\html-styles.css">
+  </head>
+  <body><h2 id="31atazanavirfinalpkparametertables">3.1 Atazanavir final PK parameter tables</h2>
+<p>The compound parameter values of the final atazanavir PBPK model are illustrated below.</p>
+<h1 id="compoundatazanavir">Compound: Atazanavir</h1>
+<h2 id="parameters">Parameters</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Value Origin</th>
+<th>Alternative</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Solubility at reference pH</td>
+<td>50000 mg/l</td>
+<td>Other-Assumption-Assumption</td>
+<td>Assumption</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Reference pH</td>
+<td>7</td>
+<td>Other-Assumption-Assumption</td>
+<td>Assumption</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Lipophilicity</td>
+<td>2.12 Log Units</td>
+<td>Publication-Unknown-Hyland 2008, PMID: 18647303</td>
+<td>Measurement</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Fraction unbound (plasma, reference value)</td>
+<td>0.14</td>
+<td>Publication-Unknown-Rajoli 2015, PMID: 25523214</td>
+<td>Measurement</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Specific intestinal permeability (transcellular)</td>
+<td>9.8649602504E-06 cm/min</td>
+<td>Parameter Identification-Parameter Identification-Value updated from 'SingleDose' on 2019-07-29 17:45</td>
+<td>Optimized</td>
+<td>True</td>
+</tr>
+<tr>
+<td>Is small molecule</td>
+<td>Yes</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Molecular weight</td>
+<td>704.8555 g/mol</td>
+<td>Internet-Unknown-drugbank.ca</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Plasma protein binding partner</td>
+<td>Unknown</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="calculationmethods">Calculation methods</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Partition coefficients</td>
+<td>Rodgers and Rowland</td>
+</tr>
+<tr>
+<td>Cellular permeabilities</td>
+<td>PK-Sim Standard</td>
+</tr>
+</tbody>
+</table>
+<h2 id="processes">Processes</h2>
+<h3 id="metabolizingenzymecyp3a4optimized">Metabolizing Enzyme: CYP3A4-Optimized</h3>
+<p>Molecule: CYP3A4</p>
+<h4 id="parameters-1">Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Value Origin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enzyme concentration</td>
+<td>1 µmol/l</td>
+<td></td>
+</tr>
+<tr>
+<td>Specific clearance</td>
+<td>0 1/min</td>
+<td></td>
+</tr>
+<tr>
+<td>CLspec/[Enzyme]</td>
+<td>1.0383524966 l/µmol/min</td>
+<td>Parameter Identification-Parameter Identification-Value updated from 'SingleDose' on 2019-07-29 17:45</td>
+</tr>
+</tbody>
+</table>
+<h3 id="systemicprocessglomerularfiltrationclinicalpharmacologyreview">Systemic Process: Glomerular Filtration-Clinical Pharmacology Review</h3>
+<p>Species: Human</p>
+<h4 id="parameters-2">Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th style="text-align:right;">Value</th>
+<th>Value Origin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GFR fraction</td>
+<td style="text-align:right;">2.014495446</td>
+<td>Parameter Identification-Parameter Identification-Value updated from 'Single+MultipleDose_withMBI' on 2019-07-30 10:12</td>
+</tr>
+</tbody>
+</table>
+<h3 id="inhibitioncyp3a4perloff2005">Inhibition: CYP3A4-Perloff2005</h3>
+<p>Molecule: CYP3A4</p>
+<h4 id="parameters-3">Parameters</h4>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Value Origin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>kinact</td>
+<td>0.0033009852632 1/min</td>
+<td>Parameter Identification-Parameter Identification-Value updated from 'Single+MultipleDose_withMBI' on 2019-07-30 10:12</td>
+</tr>
+<tr>
+<td>K<em>kinact</em>half</td>
+<td>0.1292581489 µmol/l</td>
+<td>Parameter Identification-Parameter Identification-Value updated from 'Single+MultipleDose_withMBI' on 2019-07-30 10:12</td>
+</tr>
+</tbody>
+</table>
+  </body>
+</html>
