@@ -1,0 +1,612 @@
+{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v1.0/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "Atazanavir",
+            "Path": "https://raw.githubusercontent.com/AndreDlm/Atazanavir-Model/master/Atazanavir.json",
+            "BuildingBlocks": []
+        }
+    ],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
+        }
+    ],
+    "Plots": {
+        "PlotSettings": {
+            "ChartWidth": 500,
+            "ChartHeight": 400,
+            "Fonts": {
+                "AxisSize": 11,
+                "LegendSize": 9,
+                "OriginSize": 9,
+                "FontFamilyName": "Arial",
+                "WatermarkSize": 40
+            }
+        },
+        "AxesSettings": {
+            "ComparisonTimeProfile": [
+                {
+                    "Unit": "h",
+                    "Dimension": "Time",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsPredictedVsObserved": [
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsResidualsVsObserved": [
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Unit": "h",
+                    "Dimension": "Time",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "PKRatioPlots": [
+                {
+                    "Unit": "year(s)",
+                    "Dimension": "Age",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
+        "GOFMergedPlots": [
+            {
+                "Title": "Goodness-of-fit visual diagnostic plots for atazanavir PBPK model performance: observed versus simulated plasma concentrations",
+                "SectionId": 41,
+                "PlotType": "predictedVsObserved",
+                "Groups": [
+                    {
+                        "Caption": "Atazanavir - Plasma concentrations",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-004, p. 94 - Treatment A - Atazanavir - PO - 400 mg - Plasma - agg. (n=32)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-014, p. 77 - Young Males - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-015, p. 81 - Normal subjects - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-028_200mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-028, p. 128 - A-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-040_200mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-040, p. 64 - 200 mg - Atazanavir - PO - 200 mg - Plasma - agg. (n=20)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Acosta2007_300mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Acosta 2007 - Period 1 - Atazanavir - PO - 300 mg - Plasma - agg. (n=10)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-056_300mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-056, p. 134 - Atazanavir without ritonavir, Day 10 - Atazanavir - PO - 300 mg - Plasma - agg. (n=30)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Zhu2010_300mg_Atazanavir",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Zhu 2010 - Atazanvir 300 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=22)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Agarwala2003_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Agarwala 2003 - Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Agarwala2005a_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Agarwala 2005a - ATV 400 mg AM (N=15) - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Agarwala2005b_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Agarwala 2005b - ATV 400 mg (Treatment A) - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-028_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-028, p. 128 - A-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-040_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-040, p. 64 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=20)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-076_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-076, p. 178 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Martin2008_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Zhu2011_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-040_800mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-040, p. 64 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=20)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-076_800mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-076, p. 178 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=66)",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Atazanavir - Dose fraction excreted unchanged in urine",
+                        "Symbol": "Diamond",
+                        "OutputMappings": [
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales",
+                                "Output": "Organism|Kidney|Urine|Atazanavir|Fraction excreted to urine",
+                                "ObservedData": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)",
+                                "Color": "#000000"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "Goodness-of-fit visual diagnostic plots for atazanavir PBPK model performance: weighted residuals versus time",
+                "SectionId": 41,
+                "PlotType": "residualsOverTime",
+                "Groups": [
+                    {
+                        "Caption": "Atazanavir - Plasma concentrations",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-004, p. 94 - Treatment A - Atazanavir - PO - 400 mg - Plasma - agg. (n=32)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-014, p. 77 - Young Males - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-015, p. 81 - Normal subjects - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-028_200mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-028, p. 128 - A-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-040_200mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-040, p. 64 - 200 mg - Atazanavir - PO - 200 mg - Plasma - agg. (n=20)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Acosta2007_300mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Acosta 2007 - Period 1 - Atazanavir - PO - 300 mg - Plasma - agg. (n=10)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-056_300mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-056, p. 134 - Atazanavir without ritonavir, Day 10 - Atazanavir - PO - 300 mg - Plasma - agg. (n=30)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Zhu2010_300mg_Atazanavir",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Zhu 2010 - Atazanvir 300 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=22)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Agarwala2003_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Agarwala 2003 - Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Agarwala2005a_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Agarwala 2005a - ATV 400 mg AM (N=15) - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Agarwala2005b_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Agarwala 2005b - ATV 400 mg (Treatment A) - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-028_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-028, p. 128 - A-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-040_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-040, p. 64 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=20)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-076_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-076, p. 178 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Martin2008_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "Zhu2011_400mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-040_800mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-040, p. 64 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=20)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-076_800mg",
+                                "Output": "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "ClinPharmReview, AI424-076, p. 178 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=66)",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Atazanavir - Dose fraction excreted unchanged in urine",
+                        "Symbol": "Diamond",
+                        "OutputMappings": [
+                            {
+                                "Project": "Atazanavir",
+                                "Simulation": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales",
+                                "Output": "Organism|Kidney|Urine|Atazanavir|Fraction excreted to urine",
+                                "ObservedData": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)",
+                                "Color": "#000000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "AllPlots": [
+            {
+                "Project": "Atazanavir",
+                "Simulation": "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "FDA-ClinPharmReview_AI424-028_200mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "FDA-ClinPharmReview_AI424-040_200mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "Acosta2007_300mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "FDA-ClinPharmReview_AI424-056_300mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "Zhu2010_300mg_Atazanavir",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "Agarwala2003_400mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "Agarwala2005a_400mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "Agarwala2005b_400mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "FDA-ClinPharmReview_AI424-028_400mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "FDA-ClinPharmReview_AI424-040_400mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "FDA-ClinPharmReview_AI424-076_400mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "Martin2008_400mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "Zhu2011_400mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "FDA-ClinPharmReview_AI424-040_800mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Atazanavir",
+                "Simulation": "FDA-ClinPharmReview_AI424-076_800mg",
+                "SectionId": 42
+            }
+        ]
+    },
+    "Inputs": [
+        {
+            "Project": "Atazanavir",
+            "Name": "Atazanavir",
+            "Type": "Compound",
+            "SectionId": 40
+        }
+    ],
+    "Sections": [
+        {
+            "Id": 1,
+            "Title": "1 Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Id": 2,
+            "Title": "2 Methods",
+            "Content": "Content/Section2_Methods.md",
+            "Sections": [
+                {
+                    "Id": 21,
+                    "Content": "Content/Section2.1_Modeling_Strategy.md",
+                    "Title": "2.1 Modeling strategy"
+                },
+                {
+                    "Id": 22,
+                    "Content": "Content/Section2.2_Data_used.md",
+                    "Title": "2.2 Data used"
+                },
+                {
+                   "Id": 23,
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
+                    "Title": "2.3 Model parameters and assumptions"
+                }
+            ]
+        },
+        {
+            "Id": 2,
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Title": "3 Results and Discussion",
+            "Sections": [
+                {
+                    "Id": 40,
+                    "Content": "Content/Atazanavir_table.md",
+                    "Title": "3.1 Atazanavir final PK parameter tables"
+                },
+                {
+                    "Id": 41,
+                    "Content": "Content/GOF_diagnostics.md",
+                    "Title": "3.2 Atazanavir Diagnostics Plots"
+                },
+                {
+                    "Id": 42,
+                    "Content": "Content/Concentration_time_profiles.md",
+                    "Title": "3.3 Atazanavir Concentration-Time profiles"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "Content": "Content/Section4_Conclusion.md",
+            "Title": "4 Conclusion"
+        },
+        {
+            "Id": 4,
+            "Content": "Content/References.md",
+            "Title": "References"
+        }
+    ]
+}
