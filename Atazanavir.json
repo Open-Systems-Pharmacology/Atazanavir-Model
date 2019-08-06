@@ -1019,7 +1019,7 @@
               "Unit": "Log Units",
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "Unknown",
+                "Method": "",
                 "Description": "Hyland 2008, PMID: 18647303"
               }
             }
@@ -1036,7 +1036,7 @@
               "Value": 0.14,
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "Unknown",
+                "Method": "",
                 "Description": "Rajoli 2015, PMID: 25523214"
               }
             }
@@ -1052,8 +1052,8 @@
               "Value": 50000.0,
               "Unit": "mg/l",
               "ValueOrigin": {
-                "Source": "Other",
-                "Method": "Assumption",
+                "Source": "",
+                "Method": "",
                 "Description": "Assumption"
               }
             },
@@ -1061,8 +1061,8 @@
               "Name": "Reference pH",
               "Value": 7.0,
               "ValueOrigin": {
-                "Source": "Other",
-                "Method": "Assumption",
+                "Source": "",
+                "Method": "",
                 "Description": "Assumption"
               }
             }
@@ -1079,8 +1079,8 @@
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'SingleDose' on 2019-07-29 17:45"
+                "Method": "",
+                "Description": ""
               }
             }
           ]
@@ -1092,7 +1092,7 @@
           "Pka": 4.7,
           "ValueOrigin": {
             "Source": "Publication",
-            "Method": "Unknown",
+            "Method": "",
             "Description": "Berlin 2015, PMID: 25872159"
           }
         }
@@ -1119,8 +1119,8 @@
               "Unit": "l/µmol/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'SingleDose' on 2019-07-29 17:45"
+                "Method": "",
+                "Description": ""
               }
             }
           ]
@@ -1135,8 +1135,8 @@
               "Value": 2.014495446,
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Single+MultipleDose_withMBI' on 2019-07-30 10:12"
+                "Method": "",
+                "Description": ""
               }
             }
           ]
@@ -1152,8 +1152,8 @@
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Single+MultipleDose_withMBI' on 2019-07-30 10:12"
+                "Method": "",
+                "Description": ""
               }
             },
             {
@@ -1162,8 +1162,8 @@
               "Unit": "µmol/l",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Single+MultipleDose_withMBI' on 2019-07-30 10:12"
+                "Method": "",
+                "Description": ""
               }
             }
           ]
@@ -1178,7 +1178,7 @@
               "Value": 0.1672,
               "Unit": "µmol/l",
               "ValueOrigin": {
-                "Source": "Other",
+                "Source": "",
                 "Method": "InVitro",
                 "Description": "Calculated from reported Ki and fu,mic"
               }
@@ -1188,7 +1188,7 @@
               "Value": 0.7524,
               "Unit": "µmol/l",
               "ValueOrigin": {
-                "Source": "Other",
+                "Source": "",
                 "Method": "InVitro",
                 "Description": "Calculated from reported Ki, fu,mic and alpha"
               }
@@ -1207,7 +1207,7 @@
           "Unit": "g/mol",
           "ValueOrigin": {
             "Source": "Internet",
-            "Method": "Unknown",
+            "Method": "",
             "Description": "drugbank.ca"
           }
         }
@@ -1225,8 +1225,8 @@
           "Unit": "min",
           "ValueOrigin": {
             "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'SingleDose' on 2019-07-29 17:45"
+            "Method": "",
+            "Description": ""
           }
         },
         {
@@ -1239,8 +1239,8 @@
           "Value": 1.5566465018,
           "ValueOrigin": {
             "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'SingleDose' on 2019-07-29 17:45"
+            "Method": "",
+            "Description": ""
           }
         },
         {
@@ -1248,7 +1248,7 @@
           "Value": 1.0,
           "ValueOrigin": {
             "Source": "Other",
-            "Method": "Other"
+            "Method": ""
           }
         }
       ]

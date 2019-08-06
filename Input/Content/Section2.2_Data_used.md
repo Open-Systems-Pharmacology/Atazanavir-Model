@@ -2,12 +2,12 @@
 
 A literature search was performed to collect available information on physicochemical properties of atazanavir. The obtained information from the literature is summarized in the table below and is used for model building.
 
-| **Parameter** | **Unit** | **Raltegravir literature**                                   | **Description**            |
-| :------------ | -------- | ------------------------------------------------------------ | -------------------------- |
-| MW            | g/mol    | 704.9 ([drugbank.ca](../input/references.md))                | Molecular weight           |
-| pKa (basic)   |          | 4.7 ([Berlin 2015](../input/references.md))                  | Acid dissociation constant |
-| logP          |          | 2.12 ([Hyland 2008](../input/references.md))                 | Lipophilicity              |
-| fu            |          | 0.14 ([US Food and Drug Administration 2002](../input/references.md)) | Fraction unbound           |
+| **Parameter** | **Unit** | **Raltegravir literature**                                   | **Description**                                 |
+| :------------ | -------- | ------------------------------------------------------------ | ----------------------------------------------- |
+| MW            | g/mol    | 704.9 ([drugbank.ca](../input/references.md))                | Molecular weight                                |
+| pKa (basic)   |          | 4.7 ([Berlin 2015](../input/references.md))                  | Acid dissociation constant                      |
+| logP          |          | 2.12 ([Hyland 2008](../input/references.md))                 | Partition coefficient between octanol and water |
+| fu            |          | 0.14 ([US Food and Drug Administration 2002](../input/references.md)) | Fraction unbound                                |
 
 ### 2.2.2	Clinical data
 
