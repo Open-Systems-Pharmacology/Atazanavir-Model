@@ -1019,7 +1019,6 @@
               "Unit": "Log Units",
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "",
                 "Description": "Hyland 2008, PMID: 18647303"
               }
             }
@@ -1036,7 +1035,6 @@
               "Value": 0.14,
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "",
                 "Description": "Rajoli 2015, PMID: 25523214"
               }
             }
@@ -1052,8 +1050,6 @@
               "Value": 50000.0,
               "Unit": "mg/l",
               "ValueOrigin": {
-                "Source": "",
-                "Method": "",
                 "Description": "Assumption"
               }
             },
@@ -1061,8 +1057,6 @@
               "Name": "Reference pH",
               "Value": 7.0,
               "ValueOrigin": {
-                "Source": "",
-                "Method": "",
                 "Description": "Assumption"
               }
             }
@@ -1078,9 +1072,7 @@
               "Value": 9.8649602504E-06,
               "Unit": "cm/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "",
-                "Description": ""
+                "Source": "ParameterIdentification"
               }
             }
           ]
@@ -1092,7 +1084,6 @@
           "Pka": 4.7,
           "ValueOrigin": {
             "Source": "Publication",
-            "Method": "",
             "Description": "Berlin 2015, PMID: 25872159"
           }
         }
@@ -1118,9 +1109,7 @@
               "Value": 1.0383524966,
               "Unit": "l/µmol/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "",
-                "Description": ""
+                "Source": "ParameterIdentification"
               }
             }
           ]
@@ -1134,9 +1123,7 @@
               "Name": "GFR fraction",
               "Value": 2.014495446,
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "",
-                "Description": ""
+                "Source": "ParameterIdentification"
               }
             }
           ]
@@ -1151,9 +1138,7 @@
               "Value": 0.0033009852632,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "",
-                "Description": ""
+                "Source": "ParameterIdentification"
               }
             },
             {
@@ -1161,16 +1146,14 @@
               "Value": 0.1292581489,
               "Unit": "µmol/l",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "",
-                "Description": ""
+                "Source": "ParameterIdentification"
               }
             }
           ]
         },
         {
           "InternalName": "MixedInhibition",
-          "DataSource": "InternalData",
+          "DataSource": "PH-41095",
           "Molecule": "UGT1A1",
           "Parameters": [
             {
@@ -1178,7 +1161,6 @@
               "Value": 0.1672,
               "Unit": "µmol/l",
               "ValueOrigin": {
-                "Source": "",
                 "Method": "InVitro",
                 "Description": "Calculated from reported Ki and fu,mic"
               }
@@ -1188,7 +1170,6 @@
               "Value": 0.7524,
               "Unit": "µmol/l",
               "ValueOrigin": {
-                "Source": "",
                 "Method": "InVitro",
                 "Description": "Calculated from reported Ki, fu,mic and alpha"
               }
@@ -1207,7 +1188,6 @@
           "Unit": "g/mol",
           "ValueOrigin": {
             "Source": "Internet",
-            "Method": "",
             "Description": "drugbank.ca"
           }
         }
@@ -1224,9 +1204,7 @@
           "Value": 78.8787658271,
           "Unit": "min",
           "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "",
-            "Description": ""
+            "Source": "ParameterIdentification"
           }
         },
         {
@@ -1238,17 +1216,14 @@
           "Name": "Dissolution shape",
           "Value": 1.5566465018,
           "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "",
-            "Description": ""
+            "Source": "ParameterIdentification"
           }
         },
         {
           "Name": "Use as suspension",
           "Value": 1.0,
           "ValueOrigin": {
-            "Source": "Other",
-            "Method": ""
+            "Source": "Other"
           }
         }
       ]
@@ -2349,6 +2324,11 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
         }
       ]
     },
@@ -2628,6 +2608,11 @@
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -2909,6 +2894,11 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
         }
       ]
     },
@@ -3188,6 +3178,11 @@
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -3481,6 +3476,11 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
         }
       ]
     },
@@ -3773,6 +3773,11 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
         }
       ]
     },
@@ -4040,6 +4045,11 @@
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -4309,6 +4319,11 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
         }
       ]
     },
@@ -4576,6 +4591,11 @@
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -4917,6 +4937,11 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
         }
       ]
     },
@@ -5197,6 +5222,11 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
         }
       ]
     },
@@ -5476,6 +5506,11 @@
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -5771,6 +5806,11 @@
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -6175,6 +6215,11 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
         }
       ]
     },
@@ -6467,6 +6512,11 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
         }
       ]
     },
@@ -6627,6 +6677,11 @@
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -6795,6 +6850,11 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
         }
       ]
     },
@@ -6854,14 +6914,6 @@
           "Path": "Applications|400mg_SD|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
-        },
-        {
-          "Path": "Events|Light meal|Light meal_1|Start time",
-          "Value": 0.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
         }
       ],
       "OutputSelections": [
@@ -7015,6 +7067,11 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
         }
       ]
     },
@@ -7073,14 +7130,6 @@
           "Path": "Applications|400mg_SD|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
-        },
-        {
-          "Path": "Events|Light meal|Light meal_1|Start time",
-          "Value": 0.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
         }
       ],
       "OutputSelections": [
@@ -7197,6 +7246,11 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
         }
       ]
     }
@@ -7235,11 +7289,11 @@
             },
             {
               "Name": "maxiter",
-              "Value": 200
+              "Value": 200.0
             },
             {
               "Name": "maxfev",
-              "Value": 0
+              "Value": 0.0
             },
             {
               "Name": "epsfcn",
@@ -7725,27 +7779,27 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            390.908,
-            1273.196,
-            3204.996,
-            5365.42,
-            5139.912,
-            4058.743,
-            3274.549,
-            2424.462,
-            1719.615,
-            1219.683,
-            963.1257,
-            613.5907,
-            474.2318,
-            390.908,
-            136.5206,
-            49.77024,
-            14.63865,
-            5.003808
+            0.390907973,
+            1.2731961,
+            3.204996,
+            5.36542,
+            5.139912,
+            4.058743,
+            3.274549,
+            2.42446184,
+            1.719615,
+            1.21968293,
+            0.963125646,
+            0.6135907,
+            0.474231839,
+            0.390907973,
+            0.1365206,
+            0.04977024,
+            0.01463865,
+            0.005003808
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -7874,18 +7928,18 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            345.626,
-            5943.076,
-            4274.498,
-            2211.224,
-            1458.283,
-            1104.878,
-            881.8324,
-            533.2493,
-            345.626
+            0.345626,
+            5.943076,
+            4.274498,
+            2.21122432,
+            1.45828307,
+            1.10487807,
+            0.8818324,
+            0.5332493,
+            0.345626
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -8005,18 +8059,18 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            268.7558,
-            4674.388,
-            3333.771,
-            1876.698,
-            1432.067,
-            1021.349,
-            779.369,
-            519.5129,
-            302.506
+            0.2687558,
+            4.674388,
+            3.333771,
+            1.876698,
+            1.432067,
+            1.02134907,
+            0.779369056,
+            0.5195129,
+            0.302506
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -8168,22 +8222,22 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            390.134521,
-            484.3049,
-            2973.094,
-            4291.48,
-            4681.614,
-            4278.027,
-            3484.305,
-            1977.57886,
-            1479.82092,
-            1210.762,
-            928.2511,
-            591.9282,
-            376.68158
+            0.3901345,
+            0.4843049,
+            2.973094,
+            4.29148,
+            4.681614,
+            4.278027,
+            3.484305,
+            1.97757888,
+            1.47982085,
+            1.210762,
+            0.9282511,
+            0.5919282,
+            0.3766816
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -8338,21 +8392,21 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            305.1643,
-            281.6902,
-            1983.56787,
-            3169.014,
-            3462.441,
-            3650.235,
-            3497.653,
-            2699.531,
-            1971.83118,
-            1314.554,
-            809.8591,
-            293.4272
+            0.3051643,
+            0.28169018,
+            1.983568,
+            3.169014,
+            3.462441,
+            3.65023518,
+            3.497653,
+            2.699531,
+            1.97183108,
+            1.314554,
+            0.809859037,
+            0.293427169
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -8506,21 +8560,21 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            308.3004,
-            308.3004,
-            3652.174,
-            4494.071,
-            4470.356,
-            4434.783,
-            3806.324,
-            2098.814,
-            1399.209,
-            782.6087,
-            486.165955,
-            320.1581
+            0.308300436,
+            0.308300436,
+            3.652174,
+            4.49407053,
+            4.470356,
+            4.434783,
+            3.806324,
+            2.09881377,
+            1.3992089,
+            0.7826087,
+            0.486165971,
+            0.3201581
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -9370,24 +9424,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            48.09408,
-            46.14355,
-            231.4407,
-            754.4552,
-            1227.53,
-            1129.621,
-            1245.389,
-            809.9092,
-            676.4423,
-            505.493,
-            324.3893,
-            229.4415,
-            157.832,
-            89.47934,
-            41.27644
+            0.0480940826,
+            0.04614355,
+            0.231440708,
+            0.7544552,
+            1.22753,
+            1.12962091,
+            1.2453891,
+            0.809909165,
+            0.6764423,
+            0.505493,
+            0.3243893,
+            0.2294415,
+            0.157832012,
+            0.08947934,
+            0.04127644
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -9547,24 +9601,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            209.8598,
-            215.8391,
-            1243.976,
-            3384.883,
-            4288.24,
-            4001.618,
-            3733.9,
-            3389.806,
-            2396.15,
-            1790.681,
-            1284.251,
-            921.0682,
-            642.482,
-            401.4605,
-            215.7802
+            0.2098598,
+            0.215839088,
+            1.24397588,
+            3.384883,
+            4.28824043,
+            4.001618,
+            3.73389983,
+            3.38980579,
+            2.39614987,
+            1.790681,
+            1.284251,
+            0.9210682,
+            0.642482,
+            0.4014605,
+            0.215780184
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -9724,24 +9778,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            1081.938,
-            1243.637,
-            4594.243,
-            8013.162,
-            8957.829,
-            8017.34961,
-            7586.017,
-            6605.524,
-            5440.71,
-            4544.019,
-            3693.165,
-            2879.11,
-            2340.112,
-            1634.139,
-            1052.324
+            1.08193791,
+            1.243637,
+            4.59424353,
+            8.013163,
+            8.95782852,
+            8.017349,
+            7.586017,
+            6.605524,
+            5.44071,
+            4.544019,
+            3.693165,
+            2.87911,
+            2.34011221,
+            1.63413906,
+            1.052324
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -10882,17 +10936,17 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            1587.112,
-            2455.847,
-            5229.117,
-            4560.859,
-            3976.134,
-            2522.673,
-            1937.94788,
-            1269.69
+            1.58711207,
+            2.455847,
+            5.229117,
+            4.560859,
+            3.97613382,
+            2.52267313,
+            1.93794787,
+            1.26968992
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11040,19 +11094,19 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            1188.273,
-            1440.167,
-            2609.124,
-            3069.571,
-            3402.505,
-            2842.337,
-            2207.127,
-            1538.141,
-            1073.286,
-            908.9452
+            1.188273,
+            1.44016707,
+            2.60912418,
+            3.069571,
+            3.402505,
+            2.842337,
+            2.20712686,
+            1.538141,
+            1.073286,
+            0.9089452
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11173,24 +11227,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            53.14065,
-            42.31789,
-            155.4463,
-            532.1257,
-            1157.525,
-            1534.888,
-            1368.999,
-            1014.276,
-            830.0467,
-            660.3217,
-            411.9116,
-            260.6814,
-            174.5166,
-            79.36028,
-            35.23748
+            0.05314065,
+            0.04231789,
+            0.1554463,
+            0.5321257,
+            1.15752506,
+            1.53488791,
+            1.368999,
+            1.014276,
+            0.8300467,
+            0.6603217,
+            0.4119116,
+            0.2606814,
+            0.1745166,
+            0.0793602839,
+            0.03523748
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11316,24 +11370,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            36.25845,
-            37.78766,
-            97.44014,
-            517.3403,
-            1125.074,
-            1241.138,
-            1204.957,
-            892.9667,
-            762.5662,
-            581.4949,
-            394.7374,
-            249.876511,
-            162.2831,
-            82.82365,
-            31.4692478
+            0.0362584479,
+            0.0377876572,
+            0.0974401459,
+            0.517340243,
+            1.12507391,
+            1.241138,
+            1.204957,
+            0.8929667,
+            0.7625662,
+            0.581494868,
+            0.3947374,
+            0.249876514,
+            0.162283108,
+            0.08282365,
+            0.03146925
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11459,24 +11513,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            184.2253,
-            159.6593,
-            1200.078,
-            4758.576,
-            5401.809,
-            4955.954,
-            4354.939,
-            3663.426,
-            3125.826,
-            2280.552,
-            1503.294,
-            922.7382,
-            681.4053,
-            287.6778,
-            144.6846
+            0.1842253,
+            0.159659311,
+            1.200078,
+            4.75857639,
+            5.401809,
+            4.955954,
+            4.354939,
+            3.663426,
+            3.125826,
+            2.28055215,
+            1.50329387,
+            0.9227382,
+            0.681405246,
+            0.2876778,
+            0.144684613
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11602,24 +11656,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            224.809,
-            294.1696,
-            772.4532,
-            2733.431,
-            4303.13,
-            4816.469,
-            4292.95,
-            3460.545,
-            2788.849,
-            2064.852,
-            1380.419,
-            949.4606,
-            691.0724,
-            366.3426,
-            171.61
+            0.224809,
+            0.294169575,
+            0.7724532,
+            2.73343086,
+            4.30313,
+            4.816469,
+            4.29295,
+            3.460545,
+            2.788849,
+            2.064852,
+            1.3804189,
+            0.949460566,
+            0.6910724,
+            0.3663426,
+            0.17161
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11779,24 +11833,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            153.1764,
-            197.7574,
-            669.3192,
-            1404.998,
-            2188.464,
-            2948.682,
-            3155.993,
-            2400.365,
-            1889.2,
-            1297.154,
-            913.0627,
-            626.4681,
-            419.0316,
-            221.9535,
-            133.6304
+            0.1531764,
+            0.197757408,
+            0.6693192,
+            1.40499806,
+            2.18846416,
+            2.94868183,
+            3.155993,
+            2.400365,
+            1.8892,
+            1.29715407,
+            0.9130627,
+            0.626468062,
+            0.4190316,
+            0.221953511,
+            0.13363041
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -12144,26 +12198,26 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            1602.03,
-            4059.65869,
-            7546.556,
-            10501.89,
-            8715.749,
-            6523.181,
-            5414.6,
-            4051.994,
-            3362.296,
-            2848.031,
-            2086.286,
-            1766.335,
-            1591.051,
-            508.7171,
-            235.9636,
-            87.18763,
-            26.74817
+            1.60203,
+            4.05965853,
+            7.546556,
+            10.50189,
+            8.715749,
+            6.523181,
+            5.41460037,
+            4.051994,
+            3.36229587,
+            2.848031,
+            2.08628583,
+            1.766335,
+            1.5910511,
+            0.5087171,
+            0.2359636,
+            0.08718763,
+            0.0267481711
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
