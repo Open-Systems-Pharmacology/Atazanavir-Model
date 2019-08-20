@@ -1,9 +1,9 @@
-{
+﻿{
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v1.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Atazanavir",
-            "Path": "https://raw.githubusercontent.com/AndreDlm/Atazanavir-Model/master/Atazanavir.json",
+            "Path": "C:/Users/gemuh.AD-BAYER-CNB/Desktop/Markdown/Atazanavir/Input/Atazanavir.json",
             "BuildingBlocks": []
         }
     ],
@@ -584,7 +584,7 @@
                 {
                     "Id": 40,
                     "Content": "Content/Atazanavir_table.md",
-                    "Title": "3.1 Atazanavir final PK parameter tables"
+                    "Title": "3.1 Atazanavir final input parameters"
                 },
                 {
                     "Id": 41,
@@ -606,7 +606,7 @@
         {
             "Id": 4,
             "Content": "Content/References.md",
-            "Title": "References"
+            "Title": "5 References"
         }
     ]
 }
