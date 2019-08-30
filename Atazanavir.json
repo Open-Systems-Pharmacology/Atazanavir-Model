@@ -8136,7 +8136,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -8154,33 +8153,6 @@
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales-Atazanavir-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Organism|Kidney|Urine|Atazanavir|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Visible": false,
-                "VisibleInLegend": false,
-                "Color": "#ECD33A",
-                "LegendIndex": 3,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)-Atazanavir-Kidney-Urine-ArithmeticMean",
-              "X": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)|Time",
-              "Y": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)|ObservedData|Kidney|Urine|Atazanavir|ArithmeticMean",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Visible": false,
-                "VisibleInLegend": false,
-                "Color": "#ECD33A",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
               }
             },
             {
@@ -8231,19 +8203,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Fraction",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.008850689,
-              "Max": 2.292449,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -8254,33 +8213,6 @@
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales-Atazanavir-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Organism|Kidney|Urine|Atazanavir|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Visible": false,
-                "VisibleInLegend": false,
-                "Color": "#ECD33A",
-                "LegendIndex": 3,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)-Atazanavir-Kidney-Urine-ArithmeticMean",
-              "X": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)|Time",
-              "Y": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)|ObservedData|Kidney|Urine|Atazanavir|ArithmeticMean",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Visible": false,
-                "VisibleInLegend": false,
-                "Color": "#ECD33A",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
               }
             },
             {
@@ -8336,7 +8268,7 @@
               "Y": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Organism|Kidney|Urine|Atazanavir|Fraction excreted to urine",
               "CurveOptions": {
                 "VisibleInLegend": false,
-                "Color": "#ECD33A",
+                "Color": "#C0C000",
                 "LegendIndex": 3,
                 "LineStyle": "Dash"
               }
@@ -8347,7 +8279,7 @@
               "Y": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)|ObservedData|Kidney|Urine|Atazanavir|ArithmeticMean",
               "CurveOptions": {
                 "VisibleInLegend": false,
-                "Color": "#ECD33A",
+                "Color": "#C0C000",
                 "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -11798,24 +11730,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.0259421282,
-            0.5539344,
-            1.495321,
-            1.947099,
-            2.023281,
-            1.993596,
-            1.52488494,
-            1.24664092,
-            0.9043038,
-            0.6372207,
-            0.414461225,
-            0.280626565,
-            0.1528258,
-            0.0889423043,
-            0.06148055
+            25.94213,
+            553.9344,
+            1495.321,
+            1947.099,
+            2023.281,
+            1993.59607,
+            1524.885,
+            1246.641,
+            904.3038,
+            637.2207,
+            414.4612,
+            280.626556,
+            152.8258,
+            88.94231,
+            61.48055
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
