@@ -4,7 +4,7 @@ Atazanavir, sold under the trade name Reyataz among others, is an azapeptide pro
 
 After oral administration, atazanavir is rapidly absorbed. A positive food effect has been observed, atazanavir is recommended to be taken with food. Protein binding is relatively high (86%) and independent of the concentration of serum proteins ([US Food and Drug Administration 2002](# 5 References)). Atazanavir undergoes extensive metabolism by CYP3A isoenzymes with a dose fraction excreted unchanged in urine of approximately 7% ([US Food and Drug Administration 2002](# 5 References), [Le Tiec 2005](# 5 References)). Previous in vitro studies suggest that atazanavir is a mechanism-based inhibitor of CYP3A ([US Food and Drug Administration 2002](# 5 References), [Perloff 2005](# 5 References)).
 
-The atzanavir model is a whole-body PBPK model and is - together with the respective evaluation plan and PBPK report - transparently documented and provided open-source (https://github.com/AndreDlm/Atazanavir-Model).
+The presented atazanavir PBPK model as well as the respective evaluation plan and evaluation report are provided open-source  (https://github.com/Open-Systems-Pharmacology/Atazanavir-Model).
 
 
 
