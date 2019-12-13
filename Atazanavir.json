@@ -1158,7 +1158,7 @@
           "Parameters": [
             {
               "Name": "Ki_c",
-              "Value": 0.1672,
+              "Value": 0.18986,
               "Unit": "µmol/l",
               "ValueOrigin": {
                 "Method": "InVitro",
@@ -1167,7 +1167,7 @@
             },
             {
               "Name": "Ki_u",
-              "Value": 0.7524,
+              "Value": 0.85437,
               "Unit": "µmol/l",
               "ValueOrigin": {
                 "Method": "InVitro",
