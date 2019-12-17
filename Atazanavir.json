@@ -480,98 +480,6 @@
           "Ontogeny": {
             "Name": "CYP3A4"
           }
-        },
-        {
-          "Name": "UGT1A1",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Gonads",
-              "Value": 0.0013585313175
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0788336933
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.00027429805616
-            },
-            {
-              "Name": "Stomach",
-              "Value": 0.016349892
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.3239740821
-            },
-            {
-              "Name": "LargeIntestine",
-              "Value": 0.0349892009
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.3239740821
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.3239740821
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.3239740821
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.3239740821
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.3239740821
-            },
-            {
-              "Name": "ColonAscendens",
-              "Value": 0.0349892009
-            },
-            {
-              "Name": "ColonTransversum",
-              "Value": 0.0349892009
-            },
-            {
-              "Name": "ColonDescendens",
-              "Value": 0.0349892009
-            },
-            {
-              "Name": "ColonSigmoid",
-              "Value": 0.0349892009
-            }
-          ],
-          "Ontogeny": {
-            "Name": "UGT1A1"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.328,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "Calculated from Ohtsuki 2012 (PMID 21994437)"
-              }
-            }
-          ]
         }
       ]
     },
@@ -738,186 +646,6 @@
           "Ontogeny": {
             "Name": "CYP3A4"
           }
-        },
-        {
-          "Name": "UGT1A1",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Gonads",
-              "Value": 0.0013585313175
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0788336933
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.00027429805616
-            },
-            {
-              "Name": "Stomach",
-              "Value": 0.016349892
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.3239740821
-            },
-            {
-              "Name": "LargeIntestine",
-              "Value": 0.0349892009
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.3239740821
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.3239740821
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.3239740821
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.3239740821
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.3239740821
-            },
-            {
-              "Name": "ColonAscendens",
-              "Value": 0.0349892009
-            },
-            {
-              "Name": "ColonTransversum",
-              "Value": 0.0349892009
-            },
-            {
-              "Name": "ColonDescendens",
-              "Value": 0.0349892009
-            },
-            {
-              "Name": "ColonSigmoid",
-              "Value": 0.0349892009
-            }
-          ],
-          "Ontogeny": {
-            "Name": "UGT1A1"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.328,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "Calculated from Ohtsuki 2012 (PMID 21994437)"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "UGT1A9",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Gonads",
-              "Value": 0.00016153846154
-            },
-            {
-              "Name": "Kidney",
-              "Value": 1.0
-            },
-            {
-              "Name": "Periportal",
-              "Value": 0.0982905983
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 0.0982905983
-            },
-            {
-              "Name": "Stomach",
-              "Value": 0.0017264957265
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0041282051282
-            },
-            {
-              "Name": "LargeIntestine",
-              "Value": 0.0079487179487
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0041282051282
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0041282051282
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0041282051282
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0041282051282
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0041282051282
-            },
-            {
-              "Name": "ColonAscendens",
-              "Value": 0.0079487179487
-            },
-            {
-              "Name": "ColonTransversum",
-              "Value": 0.0079487179487
-            },
-            {
-              "Name": "ColonDescendens",
-              "Value": 0.0079487179487
-            },
-            {
-              "Name": "ColonSigmoid",
-              "Value": 0.0079487179487
-            }
-          ],
-          "Ontogeny": {
-            "Name": "UGT1A1"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 10.36,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "Calculated from Ohtsuki 2012 (PMID 21994437)"
-              }
-            }
-          ]
         }
       ]
     },
@@ -2322,7 +2050,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nAcosta2007_300mg\n2019-12-17 09:51"
+          "OriginText": "Atazanavir\nAcosta2007_300mg\n2019-08-01 12:58"
         },
         {
           "Axes": [
@@ -2382,7 +2110,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nAcosta2007_300mg\n2019-12-17 09:51"
+          "OriginText": "Atazanavir\nAcosta2007_300mg\n2019-08-30 16:34"
         }
       ],
       "Interactions": [
@@ -2673,7 +2401,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nAgarwala2003_400mg\n2019-12-17 09:51"
+          "OriginText": "Atazanavir\nAgarwala2003_400mg\n2019-08-02 17:12"
         },
         {
           "Axes": [
@@ -2733,7 +2461,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nAgarwala2003_400mg\n2019-12-17 09:51"
+          "OriginText": "Atazanavir\nAgarwala2003_400mg\n2019-08-30 16:38"
         }
       ],
       "Interactions": [
@@ -3024,7 +2752,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nAgarwala2005a_400mg\n2019-12-17 09:51"
+          "OriginText": "Atazanavir\nAgarwala2005a_400mg\n2019-08-02 17:12"
         },
         {
           "Axes": [
@@ -3084,7 +2812,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nAgarwala2005a_400mg\n2019-12-17 09:51"
+          "OriginText": "Atazanavir\nAgarwala2005a_400mg\n2019-08-30 16:39"
         }
       ],
       "Interactions": [
@@ -3375,7 +3103,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nAgarwala2005b_400mg\n2019-12-17 09:52"
+          "OriginText": "Atazanavir\nAgarwala2005b_400mg\n2019-08-02 17:12"
         },
         {
           "Axes": [
@@ -3435,7 +3163,979 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nAgarwala2005b_400mg\n2019-12-17 09:52"
+          "OriginText": "Atazanavir\nAgarwala2005b_400mg\n2019-08-30 16:39"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Perloff2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
+        }
+      ]
+    },
+    {
+      "Name": "Martin2008_400mg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 144.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 144.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 148.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 148.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 168.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Martin2008",
+      "Compounds": [
+        {
+          "Name": "Atazanavir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Clinical Pharmacology Review"
+            }
+          ],
+          "Protocol": {
+            "Name": "400mg_QD_7days",
+            "Formulations": [
+              {
+                "Name": "Reyataz capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 23.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 47.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 71.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 95.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 119.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 143.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 141.9984,
+              "Max": 168.8662,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 45.61385,
+              "Max": 6579.798,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Martin2008_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Martin2008_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir\nMartin2008_400mg\n2019-08-02 17:13"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 142.8705,
+              "Max": 168.5712,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 131.9936,
+              "Max": 7006.287,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Martin2008_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Martin2008_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir\nMartin2008_400mg\n2019-08-02 17:13"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Perloff2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
+        }
+      ]
+    },
+    {
+      "Name": "Zhu2011_400mg",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)",
+        "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 120.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 120.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 124.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 124.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 144.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|400mg_QD_6days|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_6days|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_6days|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_6days|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_6days|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|400mg_QD_6days|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Zhu2011",
+      "Compounds": [
+        {
+          "Name": "Atazanavir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Clinical Pharmacology Review"
+            }
+          ],
+          "Protocol": {
+            "Name": "400mg_QD_6days",
+            "Formulations": [
+              {
+                "Name": "Reyataz capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 23.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 47.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 71.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 95.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        },
+        {
+          "Name": "High-fat breakfast",
+          "StartTime": {
+            "Value": 119.5,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.3247,
+              "Max": 145.262,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 75.47388,
+              "Max": 5100.178,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Zhu2011_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Zhu2011_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
+              "Y": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
+              "Y": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir\nZhu2011_400mg\n2019-08-02 17:11"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.3247,
+              "Max": 145.262,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 250.0,
+              "Max": 5010.178,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Zhu2011_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Zhu2011_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
+              "Y": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
+              "Y": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir\nZhu2011_400mg\n2019-08-02 17:11"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Perloff2005",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Atazanavir"
+        },
+        {
+          "Name": "UGT1A1-PH-41095",
+          "MoleculeName": "UGT1A1",
+          "CompoundName": "Atazanavir"
+        }
+      ]
+    },
+    {
+      "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales",
+      "Model": "4Comp",
+      "ObservedData": [
+        "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 24.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|400mg_SD|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "WhiteAmericanFemale",
+      "Compounds": [
+        {
+          "Name": "Atazanavir",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Optimized",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-Clinical Pharmacology Review"
+            }
+          ],
+          "Protocol": {
+            "Name": "400mg_SD",
+            "Formulations": [
+              {
+                "Name": "Reyataz capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "Light meal",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|Time",
+              "Y": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-014_400mg_YoungFemales\n2019-08-02 17:14"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.4064549,
+              "Max": 24.47293,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 23.12233,
+              "Max": 6255.891,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|Time",
+              "Y": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-014_400mg_YoungFemales\n2019-08-30 16:28"
         }
       ],
       "Interactions": [
@@ -3738,7 +4438,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-028_200mg\n2019-12-17 09:52"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-028_200mg\n2019-12-17 15:30"
         },
         {
           "Axes": [
@@ -3809,18 +4509,13 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-028_200mg\n2019-12-17 09:52"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-028_200mg\n2019-12-17 15:30"
         }
       ],
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -4112,7 +4807,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-028_400mg\n2019-12-17 09:52"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-028_400mg\n2019-12-17 15:55"
         },
         {
           "Axes": [
@@ -4183,18 +4878,13 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-028_400mg\n2019-12-17 09:52"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-028_400mg\n2019-12-17 15:55"
         }
       ],
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -4462,7 +5152,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_200mg\n2019-12-17 09:52"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_200mg\n2019-12-17 15:55"
         },
         {
           "Axes": [
@@ -4522,18 +5212,13 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_200mg\n2019-12-17 09:52"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_200mg\n2019-12-17 15:55"
         }
       ],
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -4801,7 +5486,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_400mg\n2019-12-17 09:52"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_400mg\n2019-12-17 15:55"
         },
         {
           "Axes": [
@@ -4861,18 +5546,13 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_400mg\n2019-12-17 09:52"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_400mg\n2019-12-17 15:55"
         }
       ],
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -5140,7 +5820,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_800mg\n2019-12-17 09:52"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_800mg\n2019-12-17 15:55"
         },
         {
           "Axes": [
@@ -5200,18 +5880,13 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_800mg\n2019-12-17 09:52"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-040_800mg\n2019-12-17 15:55"
         }
       ],
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -5551,7 +6226,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-056_300mg\n2019-12-17 09:53"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-056_300mg\n2019-12-17 15:56"
         },
         {
           "Axes": [
@@ -5611,18 +6286,13 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-056_300mg\n2019-12-17 09:53"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-056_300mg\n2019-12-17 15:56"
         }
       ],
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -5902,7 +6572,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-076_400mg\n2019-12-17 09:53"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-076_400mg\n2019-12-17 15:56"
         },
         {
           "Axes": [
@@ -5962,18 +6632,13 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-076_400mg\n2019-12-17 09:53"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-076_400mg\n2019-12-17 15:56"
         }
       ],
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -6253,7 +6918,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-076_800mg\n2019-12-17 09:53"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-076_800mg\n2019-12-17 15:57"
         },
         {
           "Axes": [
@@ -6313,384 +6978,13 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-076_800mg\n2019-12-17 09:53"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-076_800mg\n2019-12-17 15:57"
         }
       ],
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
-          "CompoundName": "Atazanavir"
-        }
-      ]
-    },
-    {
-      "Name": "Martin2008_400mg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 144.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 144.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 148.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 148.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 168.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400mg_QD_7days|Reyataz capsule|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Martin2008",
-      "Compounds": [
-        {
-          "Name": "Atazanavir",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Optimized",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Glomerular Filtration-Clinical Pharmacology Review"
-            }
-          ],
-          "Protocol": {
-            "Name": "400mg_QD_7days",
-            "Formulations": [
-              {
-                "Name": "Reyataz capsule",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h"
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 23.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 47.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 71.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 95.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 119.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 143.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 141.9984,
-              "Max": 168.8662,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 45.61385,
-              "Max": 6579.798,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Martin2008_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Martin2008_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)|Time",
-              "Y": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Atazanavir\nMartin2008_400mg\n2019-12-17 09:53"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 142.8705,
-              "Max": 168.5712,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 131.9936,
-              "Max": 7006.287,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Martin2008_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Martin2008_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)|Time",
-              "Y": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis 1",
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Atazanavir\nMartin2008_400mg\n2019-12-17 09:53"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Perloff2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -7093,7 +7387,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nZhu2010_300mg_Atazanavir\n2019-12-17 09:54"
+          "OriginText": "Atazanavir\nZhu2010_300mg_Atazanavir\n2019-12-17 15:57"
         },
         {
           "Axes": [
@@ -7153,392 +7447,13 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nZhu2010_300mg_Atazanavir\n2019-12-17 09:54"
+          "OriginText": "Atazanavir\nZhu2010_300mg_Atazanavir\n2019-12-17 15:57"
         }
       ],
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
-          "CompoundName": "Atazanavir"
-        }
-      ]
-    },
-    {
-      "Name": "Zhu2011_400mg",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)",
-        "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 120.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 120.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 124.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 124.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 144.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|400mg_QD_6days|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400mg_QD_6days|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400mg_QD_6days|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400mg_QD_6days|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400mg_QD_6days|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|400mg_QD_6days|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "Zhu2011",
-      "Compounds": [
-        {
-          "Name": "Atazanavir",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Optimized",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Glomerular Filtration-Clinical Pharmacology Review"
-            }
-          ],
-          "Protocol": {
-            "Name": "400mg_QD_6days",
-            "Formulations": [
-              {
-                "Name": "Reyataz capsule",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h"
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 23.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 47.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 71.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 95.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 119.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 119.3247,
-              "Max": 145.262,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 75.47388,
-              "Max": 5100.178,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Zhu2011_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Zhu2011_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
-              "Y": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
-              "Y": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Atazanavir\nZhu2011_400mg\n2019-12-17 09:54"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 119.3247,
-              "Max": 145.262,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 250.0,
-              "Max": 5010.178,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Zhu2011_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Zhu2011_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
-              "Y": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
-              "Y": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis 1",
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Atazanavir\nZhu2011_400mg\n2019-12-17 09:54"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Perloff2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -7693,7 +7608,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-004_400mg_TreatmentA\n2019-12-17 09:54"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-004_400mg_TreatmentA\n2019-12-17 15:57"
         },
         {
           "Axes": [
@@ -7753,250 +7668,13 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-004_400mg_TreatmentA\n2019-12-17 09:54"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-004_400mg_TreatmentA\n2019-12-17 15:57"
         }
       ],
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
-          "CompoundName": "Atazanavir"
-        }
-      ]
-    },
-    {
-      "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales",
-      "Model": "4Comp",
-      "ObservedData": [
-        "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h"
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 24.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|400mg_SD|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "WhiteAmericanFemale",
-      "Compounds": [
-        {
-          "Name": "Atazanavir",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Optimized",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Glomerular Filtration-Clinical Pharmacology Review"
-            }
-          ],
-          "Protocol": {
-            "Name": "400mg_SD",
-            "Formulations": [
-              {
-                "Name": "Reyataz capsule",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h"
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|Time",
-              "Y": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis",
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-014_400mg_YoungFemales\n2019-12-17 09:55"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": -0.4064549,
-              "Max": 24.47293,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 23.12233,
-              "Max": 6255.891,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|Time",
-              "Y": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Time Profile Analysis 1",
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-014_400mg_YoungFemales\n2019-12-17 09:55"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Perloff2005",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -8164,7 +7842,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-014_400mg_YoungMales\n2019-12-17 09:55"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-014_400mg_YoungMales\n2019-12-17 15:57"
         },
         {
           "Axes": [
@@ -8224,7 +7902,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-014_400mg_YoungMales\n2019-12-17 09:55"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-014_400mg_YoungMales\n2019-12-17 15:57"
         },
         {
           "Axes": [
@@ -8283,18 +7961,13 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-014_400mg_YoungMales\n2019-12-17 09:55"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-014_400mg_YoungMales\n2019-12-17 15:57"
         }
       ],
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
-          "CompoundName": "Atazanavir"
-        },
-        {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
         }
       ]
@@ -8458,7 +8131,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-015_400mg_NormalSubjects\n2019-12-17 09:55"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-015_400mg_NormalSubjects\n2019-12-17 15:58"
         },
         {
           "Axes": [
@@ -8518,7 +8191,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-015_400mg_NormalSubjects\n2019-12-17 09:55"
+          "OriginText": "Atazanavir\nFDA-ClinPharmReview_AI424-015_400mg_NormalSubjects\n2019-12-17 15:58"
         }
       ],
       "Interactions": [
@@ -8526,11 +8199,364 @@
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ]
+    }
+  ],
+  "ParameterIdentifications": [
+    {
+      "Name": "SingleDose_withoutMBI",
+      "Simulations": [
+        "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales",
+        "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA",
+        "FDA-ClinPharmReview_AI424-014_400mg_YoungMales",
+        "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects"
+      ],
+      "Configuration": {
+        "LLOQMode": "SimulationOutputAsObservedDataLLOQ",
+        "RemoveLLOQMode": "Never",
+        "CalculateJacobian": true,
+        "Algorithm": {
+          "Name": "Levenberg - Marquardt (MPFit)",
+          "Properties": [
+            {
+              "Name": "ftol",
+              "Value": 0.001
+            },
+            {
+              "Name": "xtol",
+              "Value": 1E-06
+            },
+            {
+              "Name": "gtol",
+              "Value": 1E-10
+            },
+            {
+              "Name": "stepfactor",
+              "Value": 100.0
+            },
+            {
+              "Name": "maxiter",
+              "Value": 200.0
+            },
+            {
+              "Name": "maxfev",
+              "Value": 0.0
+            },
+            {
+              "Name": "epsfcn",
+              "Value": 1E-09
+            }
+          ]
+        }
+      },
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "ClinPharmReview, AI424-004, p. 94 - Treatment A - Atazanavir - PO - 400 mg - Plasma - agg. (n=32)"
         },
         {
-          "Name": "UGT1A1-PH-41095",
-          "MoleculeName": "UGT1A1",
-          "CompoundName": "Atazanavir"
+          "Scaling": "Log",
+          "Path": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "ClinPharmReview, AI424-014, p. 77 - Young Males - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)"
+        },
+        {
+          "Scaling": "Linear",
+          "Weight": 20.0,
+          "Path": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Organism|Kidney|Urine|Atazanavir|Fraction excreted to urine",
+          "ObservedData": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "ClinPharmReview, AI424-015, p. 81 - Normal subjects - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)"
+        }
+      ],
+      "IdentificationParameters": [
+        {
+          "Name": "Dissolution shape",
+          "Scaling": "Log",
+          "LinkedParameters": [
+            "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA|Applications|400mg_SD|Reyataz capsule|Dissolution shape",
+            "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Applications|400mg_SD|Reyataz capsule|Dissolution shape",
+            "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Applications|400mg_SD|Reyataz capsule|Dissolution shape",
+            "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects|Applications|400mg_SD|Reyataz capsule|Dissolution shape"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 0.92
+            },
+            {
+              "Name": "MinValue",
+              "Value": 0.1
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 10.0
+            }
+          ]
+        },
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Scaling": "Log",
+          "LinkedParameters": [
+            "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA|Applications|400mg_SD|Reyataz capsule|Dissolution time (50% dissolved)",
+            "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Applications|400mg_SD|Reyataz capsule|Dissolution time (50% dissolved)",
+            "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Applications|400mg_SD|Reyataz capsule|Dissolution time (50% dissolved)",
+            "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects|Applications|400mg_SD|Reyataz capsule|Dissolution time (50% dissolved)"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 60.0,
+              "Unit": "min"
+            },
+            {
+              "Name": "MinValue",
+              "Value": 0.1,
+              "Unit": "min"
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 1000.0,
+              "Unit": "min"
+            }
+          ]
+        },
+        {
+          "Name": "Specific intestinal permeability (transcellular)",
+          "Scaling": "Log",
+          "LinkedParameters": [
+            "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA|Atazanavir|Specific intestinal permeability (transcellular)",
+            "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Atazanavir|Specific intestinal permeability (transcellular)",
+            "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Atazanavir|Specific intestinal permeability (transcellular)",
+            "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects|Atazanavir|Specific intestinal permeability (transcellular)"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 3.2106E-07,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "MinValue",
+              "Value": 1E-10,
+              "Unit": "cm/min"
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 0.001,
+              "Unit": "cm/min"
+            }
+          ]
+        },
+        {
+          "Name": "GFR fraction",
+          "Scaling": "Log",
+          "LinkedParameters": [
+            "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA|Neighborhoods|Kidney_pls_Kidney_ur|Atazanavir|Glomerular Filtration-Clinical Pharmacology Review|GFR fraction",
+            "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Neighborhoods|Kidney_pls_Kidney_ur|Atazanavir|Glomerular Filtration-Clinical Pharmacology Review|GFR fraction",
+            "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Neighborhoods|Kidney_pls_Kidney_ur|Atazanavir|Glomerular Filtration-Clinical Pharmacology Review|GFR fraction",
+            "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects|Neighborhoods|Kidney_pls_Kidney_ur|Atazanavir|Glomerular Filtration-Clinical Pharmacology Review|GFR fraction"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 1.0
+            },
+            {
+              "Name": "MinValue",
+              "Value": 0.1
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 10.0
+            }
+          ]
+        },
+        {
+          "Name": "CLspec/[Enzyme]",
+          "Scaling": "Log",
+          "LinkedParameters": [
+            "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA|Atazanavir-CYP3A4-Optimized|CLspec/[Enzyme]",
+            "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Atazanavir-CYP3A4-Optimized|CLspec/[Enzyme]",
+            "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Atazanavir-CYP3A4-Optimized|CLspec/[Enzyme]",
+            "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects|Atazanavir-CYP3A4-Optimized|CLspec/[Enzyme]"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 1.0,
+              "Unit": "l/µmol/min"
+            },
+            {
+              "Name": "MinValue",
+              "Value": 0.01,
+              "Unit": "l/µmol/min"
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 10.0,
+              "Unit": "l/µmol/min"
+            }
+          ]
+        },
+        {
+          "Name": "kinact",
+          "Scaling": "Linear",
+          "IsFixed": true,
+          "LinkedParameters": [
+            "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA|Atazanavir|CYP3A4-Perloff2005|kinact",
+            "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Atazanavir|CYP3A4-Perloff2005|kinact",
+            "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Atazanavir|CYP3A4-Perloff2005|kinact",
+            "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects|Atazanavir|CYP3A4-Perloff2005|kinact"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 0.0,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "MinValue",
+              "Value": 0.0,
+              "Unit": "1/min"
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 0.0894034784,
+              "Unit": "1/min"
+            }
+          ]
+        }
+      ],
+      "Analyses": [
+        {
+          "Name": "Time Profile",
+          "Type": "ParameterIdentificationTimeProfileChart",
+          "Chart": {
+            "Axes": [
+              {
+                "Unit": "h",
+                "Dimension": "Time",
+                "Type": "X",
+                "GridLines": false,
+                "Visible": true,
+                "DefaultColor": "#FFFFFF",
+                "DefaultLineStyle": "None",
+                "Scaling": "Linear",
+                "NumberMode": "Normal"
+              },
+              {
+                "Unit": "mg/l",
+                "Dimension": "Concentration (mass)",
+                "Type": "Y",
+                "GridLines": false,
+                "Visible": true,
+                "DefaultColor": "#FFFFFF",
+                "DefaultLineStyle": "Solid",
+                "Scaling": "Log",
+                "NumberMode": "Normal"
+              },
+              {
+                "Unit": "",
+                "Dimension": "Fraction",
+                "Type": "Y2",
+                "GridLines": false,
+                "Visible": true,
+                "DefaultColor": "#FFFFFF",
+                "DefaultLineStyle": "Dash",
+                "Scaling": "Linear",
+                "NumberMode": "Normal"
+              }
+            ],
+            "Curves": [
+              {
+                "Name": "ClinPharmReview, AI424-004, p. 94 - Treatment A - Atazanavir - PO - 400 mg - Plasma - agg. (n=32)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+                "X": "ClinPharmReview, AI424-004, p. 94 - Treatment A - Atazanavir - PO - 400 mg - Plasma - agg. (n=32)|Time",
+                "Y": "ClinPharmReview, AI424-004, p. 94 - Treatment A - Atazanavir - PO - 400 mg - Plasma - agg. (n=32)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+                "CurveOptions": {
+                  "VisibleInLegend": false,
+                  "Color": "#FF0000",
+                  "LegendIndex": 1,
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Name": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+                "X": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|Time",
+                "Y": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+                "CurveOptions": {
+                  "VisibleInLegend": false,
+                  "Color": "#0000FF",
+                  "LegendIndex": 2,
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Name": "ClinPharmReview, AI424-014, p. 77 - Young Males - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+                "X": "ClinPharmReview, AI424-014, p. 77 - Young Males - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)|Time",
+                "Y": "ClinPharmReview, AI424-014, p. 77 - Young Males - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+                "CurveOptions": {
+                  "VisibleInLegend": false,
+                  "Color": "#008000",
+                  "LegendIndex": 3,
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Name": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)-Atazanavir-Kidney-Urine-ArithmeticMean",
+                "X": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)|Time",
+                "Y": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)|ObservedData|Kidney|Urine|Atazanavir|ArithmeticMean",
+                "CurveOptions": {
+                  "yAxisType": "Y2",
+                  "VisibleInLegend": false,
+                  "Color": "#FF00FF",
+                  "LegendIndex": 4,
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Name": "ClinPharmReview, AI424-015, p. 81 - Normal subjects - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+                "X": "ClinPharmReview, AI424-015, p. 81 - Normal subjects - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)|Time",
+                "Y": "ClinPharmReview, AI424-015, p. 81 - Normal subjects - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+                "CurveOptions": {
+                  "VisibleInLegend": false,
+                  "Color": "#FF8000",
+                  "LegendIndex": 5,
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Name": "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+                "X": "Time",
+                "Y": "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+                "CurveOptions": {
+                  "Color": "#FF0000",
+                  "LegendIndex": 6
+                }
+              }
+            ],
+            "Name": "Time Profile",
+            "Settings": {
+              "SideMarginsEnabled": true,
+              "LegendPosition": "Bottom",
+              "BackColor": "#FFFFFF",
+              "DiagramBackColor": "#FFFFFF"
+            }
+          }
         }
       ]
     }
@@ -8663,27 +8689,27 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            390.908,
-            1273.196,
-            3204.996,
-            5365.42,
-            5139.912,
-            4058.743,
-            3274.549,
-            2424.462,
-            1719.615,
-            1219.683,
-            963.1257,
-            613.5907,
-            474.2318,
-            390.908,
-            136.5206,
-            49.77024,
-            14.63865,
-            5.003808
+            0.390907973,
+            1.2731961,
+            3.204996,
+            5.36542,
+            5.139912,
+            4.058743,
+            3.274549,
+            2.42446184,
+            1.719615,
+            1.21968293,
+            0.963125646,
+            0.6135907,
+            0.474231839,
+            0.390907973,
+            0.1365206,
+            0.04977024,
+            0.01463865,
+            0.005003808
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -8812,18 +8838,18 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            345.626,
-            5943.076,
-            4274.49756,
-            2211.224,
-            1458.28308,
-            1104.878,
-            881.8324,
-            533.2493,
-            345.626
+            0.345626,
+            5.943076,
+            4.274498,
+            2.21122432,
+            1.45828307,
+            1.10487807,
+            0.8818324,
+            0.5332493,
+            0.345626
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -8943,18 +8969,18 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            268.7558,
-            4674.388,
-            3333.771,
-            1876.698,
-            1432.067,
-            1021.349,
-            779.369,
-            519.5129,
-            302.506
+            0.2687558,
+            4.674388,
+            3.333771,
+            1.876698,
+            1.432067,
+            1.02134907,
+            0.779369056,
+            0.5195129,
+            0.302506
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -9106,22 +9132,22 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            390.134521,
-            484.3049,
-            2973.094,
-            4291.48,
-            4681.614,
-            4278.027,
-            3484.305,
-            1977.57886,
-            1479.82092,
-            1210.762,
-            928.2511,
-            591.9282,
-            376.68158
+            0.3901345,
+            0.4843049,
+            2.973094,
+            4.29148,
+            4.681614,
+            4.278027,
+            3.484305,
+            1.97757888,
+            1.47982085,
+            1.210762,
+            0.9282511,
+            0.5919282,
+            0.3766816
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -9276,21 +9302,21 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            305.1643,
-            281.6902,
-            1983.56787,
-            3169.014,
-            3462.441,
-            3650.235,
-            3497.653,
-            2699.531,
-            1971.83118,
-            1314.554,
-            809.8591,
-            293.4272
+            0.3051643,
+            0.28169018,
+            1.983568,
+            3.169014,
+            3.462441,
+            3.65023518,
+            3.497653,
+            2.699531,
+            1.97183108,
+            1.314554,
+            0.809859037,
+            0.293427169
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -9444,21 +9470,21 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            308.3004,
-            308.3004,
-            3652.174,
-            4494.071,
-            4470.356,
-            4434.783,
-            3806.324,
-            2098.814,
-            1399.209,
-            782.6087,
-            486.165955,
-            320.1581
+            0.308300436,
+            0.308300436,
+            3.652174,
+            4.49407053,
+            4.470356,
+            4.434783,
+            3.806324,
+            2.09881377,
+            1.3992089,
+            0.7826087,
+            0.486165971,
+            0.3201581
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -11324,24 +11350,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.0259421282,
-            0.5539344,
-            1.495321,
-            1.947099,
-            2.023281,
-            1.993596,
-            1.52488494,
-            1.24664092,
-            0.9043038,
-            0.6372207,
-            0.414461225,
-            0.280626565,
-            0.1528258,
-            0.0889423043,
-            0.06148055
+            25.94213,
+            553.9344,
+            1495.321,
+            1947.099,
+            2023.281,
+            1993.59607,
+            1524.885,
+            1246.641,
+            904.3038,
+            637.2207,
+            414.4612,
+            280.626556,
+            152.8258,
+            88.94231,
+            61.48055
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -11503,26 +11529,26 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.0009010012,
-            0.01371434,
-            0.1609762,
-            0.5417439,
-            1.161055,
-            1.612042,
-            1.306997,
-            1.006389,
-            0.788139939,
-            0.5272567,
-            0.248676687,
-            0.1253634,
-            0.0738563,
-            0.02193046,
-            0.009213131,
-            0.002002263,
-            0.0008708458
+            0.9010012,
+            13.71434,
+            160.9762,
+            541.7439,
+            1161.055,
+            1612.042,
+            1306.997,
+            1006.389,
+            788.1399,
+            527.2567,
+            248.676682,
+            125.3634,
+            73.8563,
+            21.93046,
+            9.213131,
+            2.002263,
+            0.8708458
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -11650,24 +11676,24 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            0.00811301,
-            0.107313596,
-            0.5022855,
-            1.014487,
-            1.295859,
-            1.147174,
-            0.9267733,
-            0.6937596,
-            0.5436467,
-            0.4131931,
-            0.2823701,
-            0.1959386,
-            0.1318606,
-            0.05373392,
-            0.03410638
+            8.113009,
+            107.3136,
+            502.2855,
+            1014.487,
+            1295.859,
+            1147.174,
+            926.773254,
+            693.7596,
+            543.6467,
+            413.1931,
+            282.3701,
+            195.9386,
+            131.8606,
+            53.73392,
+            34.10638
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -11978,19 +12004,19 @@
             "MolWeight": 704.8555
           },
           "Values": [
-            1188.273,
-            1440.16711,
-            2609.12427,
-            3069.571,
-            3402.505,
-            2842.337,
-            2207.127,
-            1538.141,
-            1073.286,
-            908.9452
+            1.188273,
+            1.44016707,
+            2.60912418,
+            3.069571,
+            3.402505,
+            2.842337,
+            2.20712686,
+            1.538141,
+            1.073286,
+            0.9089452
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -13258,8 +13284,8 @@
     {
       "Name": "Atazanavir Single Dose",
       "Classifiables": [
-        "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA",
         "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales",
+        "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA",
         "FDA-ClinPharmReview_AI424-014_400mg_YoungMales",
         "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects"
       ]
@@ -13271,6 +13297,8 @@
         "Agarwala2003_400mg",
         "Agarwala2005a_400mg",
         "Agarwala2005b_400mg",
+        "Martin2008_400mg",
+        "Zhu2011_400mg",
         "FDA-ClinPharmReview_AI424-028_200mg",
         "FDA-ClinPharmReview_AI424-028_400mg",
         "FDA-ClinPharmReview_AI424-040_200mg",
@@ -13279,9 +13307,7 @@
         "FDA-ClinPharmReview_AI424-056_300mg",
         "FDA-ClinPharmReview_AI424-076_400mg",
         "FDA-ClinPharmReview_AI424-076_800mg",
-        "Martin2008_400mg",
-        "Zhu2010_300mg_Atazanavir",
-        "Zhu2011_400mg"
+        "Zhu2010_300mg_Atazanavir"
       ]
     }
   ]
