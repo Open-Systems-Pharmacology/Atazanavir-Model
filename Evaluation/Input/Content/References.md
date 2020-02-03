@@ -11,8 +11,12 @@ dosing interval. Poster presented at *2nd International AIDS Society Conference 
 
 **drugbank** (https://www.drugbank.ca/drugs/DB01072), accessed on 07-30-2019.
 
+**Fricke 2020** Fricke R. Vericiguat: Investigations on Binding of Atazanavir to Recombinant UGT1A1 and of Mefenamic Acid to Recombinant UGT1A9. 2020. Report-No. PH-41346.
+
 **Hyland 2008** Hyland R, Dickins M, Collins C, Jones H, Jones B. Maraviroc: in vitro assessment of 
 drug–drug interaction potential. *Br J Clin Pharmacol* 2008, 66(4): 498-507.
+
+**Jungmann 2019** Jungmann N. Vericiguat: Determination of Ki Values of Atazanavir on 3-Glucuronidation of 17β-Estradiol via UGT1A1 and of Mefenamic Acid on Glucuronidation of Propofol via UGT1A9. Bayer AG Nonclinical study report. 2019 Aug. Report-No. PH-41095.
 
 **Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied concepts in PBPK modeling: how to build a PBPK/PD model. *CPT Pharmacometrics Syst Pharmacol* 2016, 5(10): 516-531.
 

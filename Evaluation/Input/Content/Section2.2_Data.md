@@ -11,6 +11,14 @@ A literature search was carried out to collect available information on physicoc
 | Solubililty in FaSSIF  | µg/mL    | 2.74 ([Berlin 2015](#5 References))                       | Solubility in Fasted State Simulated Intestinal Fluid |
 | Solubililty in FeSSIF  | µg/mL    | 4.13 ([Berlin 2015](#5 References))                       | Solubility in Fed State Simulated Intestinal Fluid    |
 
+With regard to UGT1A1 inhibition, atazanavir inhibited 17β-Estradiol glucuronidation in recombinant UGT1A1 by a mixed-type mechanism (in-house [Jungmann 2019](#5 References)):
+
+| **Parameter**    | **Unit** | **Value** | Source                         | **Description**                      |
+| :--------------- | -------- | --------- | ------------------------------ | ------------------------------------ |
+| K<sub>i</sub>    | µmol/L   | 0.22      | [Jungmann 2019](#5 References) | Inhibition constant                  |
+| Alpha            |          | 4.5       | [Jungmann 2019](#5 References) | Alpha value in mixed-type inhibition |
+| fu<sub>mic</sub> | %        | 0.863     | [Fricke 2020](#5 References)   | determined *in vitro* at 0.22 µmol/L |
+
 ### 2.2.2 Clinical data
 
 A literature search was carried out to collect available PK data on atazanavir in healthy adults. 
