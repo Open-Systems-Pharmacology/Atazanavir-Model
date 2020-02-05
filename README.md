@@ -1,5 +1,5 @@
 # Atazanavir-Model
-Whole-body PBPK model of atazanavir 
+Whole-body PBPK model of atazanavir. The latest release of this model can be found [here](../../releases/latest).
 
 <p align="center">
   <img src="Atazanavir.png">
