@@ -1,6 +1,9 @@
 # Building and evaluation of a PBPK model for atazanavir in healthy adults
 
 
+
+
+
 | Evaluation report version       | 1.0                                                          |
 | ------------------------------- | ------------------------------------------------------------ |
 | Repository                      | https://github.com/Open-Systems-Pharmacology/Atazanavir-Model |
@@ -27,7 +30,7 @@ The presented model building and evaluation report evaluates the performance of 
 
 Atazanavir, sold under the trade name Reyataz among others, is an azapeptide protease inhibitor and used as antiretroviral medication to treat and prevent HIV/AIDS. It is taken orally once a day at a dose of 300 mg, if co-administered with ritonavir 100 mg orally once a day, and 400 mg, if administered without ritonavir. 
 
-After oral administration, atazanavir is rapidly absorbed. A positive food effect has been observed, atazanavir is recommended to be taken with food. Protein binding is relatively high (86%) and independent of the concentration of serum proteins ([US Food and Drug Administration 2002](#5-References)). Atazanavir undergoes extensive metabolism by CYP3A isoenzymes with a dose fraction excreted unchanged in urine of approximately 7% ([US Food and Drug Administration 2002](# 5-References), [Le Tiec 2005](#5-References)). Previous in vitro studies suggest that atazanavir is a mechanism-based inhibitor of CYP3A ([US Food and Drug Administration 2002](#5-References), [Perloff 2005](#5-References)).
+After oral administration, atazanavir is rapidly absorbed. A positive food effect has been observed, atazanavir is recommended to be taken with food. Protein binding is relatively high (86%) and independent of the concentration of serum proteins ([US Food and Drug Administration 2002](#5-References)). Atazanavir undergoes extensive metabolism by CYP3A isoenzymes with a dose fraction excreted unchanged in urine of approximately 7% ([US Food and Drug Administration 2002](#5-References), [Le Tiec 2005](#5-References)). Previous in vitro studies suggest that atazanavir is a mechanism-based inhibitor of CYP3A ([US Food and Drug Administration 2002](#5-References), [Perloff 2005](#5-References)).
 
 The presented atazanavir PBPK model as well as the respective evaluation plan and evaluation report are provided open-source  (https://github.com/Open-Systems-Pharmacology/Atazanavir-Model).
 
@@ -57,9 +60,9 @@ Structural model selection was mainly guided by visual inspection of the resulti
 
 Of note, since neither *in vitro* data on the kinetics of the mechanism-based inhibition of CYP3A nor *in vivo* pharmacokinetic data on drug-drug-interactions (DDI) with a CYP3A index substrate and atazanavir as CYP3A-perpetrator were available, the model should **not** be used to predict CYP3A DDI studies unless it has been verified for this purpose.
 
-Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#2.2-Data).
+Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-Data).
 
-Details about the structural model and its parameters can be found in [Section 2.3](#2.3-Model-Parameters-and-Assumptions).
+Details about the structural model and its parameters can be found in [Section 2.3](#23-Model-Parameters-and-Assumptions).
 
 
 
@@ -109,7 +112,7 @@ The following publications were found and used for model building and evaluation
 ## 2.3 Model Parameters and Assumptions
 ### 2.3.1 Dissolution and absorption
 
-No PK data were available following intravenous administration of atazanavir allowing informing distribution and systemic clearance independently of dissolution and absorption. Consequently, only PK data following oral administration of atazanavir as capsule were used for model building. It was assumed that solubility is not a critical parameter for dissolution of atazanvir capsules in the GI tract; in the models, solubility was therefore fixed to a very high value (50 mg/mL) to prevent solubility being a limiting factor of dissolution. Although the equilibrium solubility of atazanavir in the biorelevant media FaSSIF and FeSSIF has been observed to be rather low (2.74 µg/mL and 4.13 µg/mL in FaSSIF and FeSSIF, respectively), dissolution of atazanavir capsules in these media yields concentrations that are considerably higher than this threshold during the complete measurement period of at least 3 h ([Berlin 2015](#5-References)). In the model, dissolution was described by a Weibull function and the two Weibull parameters, `dissolution shape` and `dissolution time (50% dissolved)`, were fitted together with the `specific intestinal permeability (transcellular)` to observed PK data as described in [Section 2.1](#2.1-Modeling-Strategy).  
+No PK data were available following intravenous administration of atazanavir allowing informing distribution and systemic clearance independently of dissolution and absorption. Consequently, only PK data following oral administration of atazanavir as capsule were used for model building. It was assumed that solubility is not a critical parameter for dissolution of atazanvir capsules in the GI tract; in the models, solubility was therefore fixed to a very high value (50 mg/mL) to prevent solubility being a limiting factor of dissolution. Although the equilibrium solubility of atazanavir in the biorelevant media FaSSIF and FeSSIF has been observed to be rather low (2.74 µg/mL and 4.13 µg/mL in FaSSIF and FeSSIF, respectively), dissolution of atazanavir capsules in these media yields concentrations that are considerably higher than this threshold during the complete measurement period of at least 3 h ([Berlin 2015](#5-References)). In the model, dissolution was described by a Weibull function and the two Weibull parameters, `dissolution shape` and `dissolution time (50% dissolved)`, were fitted together with the `specific intestinal permeability (transcellular)` to observed PK data as described in [Section 2.1](#21-Modeling-Strategy).  
 
 Since no PK data following IV administration was available, a moderate correlation was observed between the fitted `dissolution time (50% dissolved)` and `GFR fraction`. Although the final model parameterization was found to slightly overestimate C<sub>max</sub> in fasted state, this was considered inconsequential since atazanavir must be taken with food and all further model applications encompassed fed state PK.
 
@@ -121,11 +124,11 @@ With a fraction unbound in human plasma of approximately 0.14, atazanavir is ext
 
 Atazanavir is extensively metabolized via CYP3A isoenzymes ([Le Tiec 2005](#5-References)). Metabolism was modeled as linear process mediated by CYP3A4 (`in vitro clearance - first order`). The gene expression profile of CYP3A4 was loaded from the internal PK-Sim® database using the expression data quantified by RT-PCR ([Open Systems Pharmacology Documentation](#5-References)). 
 
-Following oral administration of 400 mg [<sup>14</sup>C]atazanavir to healthy males, approximately 7% of the radioactive dose were recovered as unchanged drug in the urine ([US Food and Drug Administration 2002](#5-References)). Renal excretion of the unchanged drug was modeled as glomerular filtration process. The `GFR fraction` was then, together with the specific clearance via CYP3A4 normalized to the enzyme concentration (`CLspec/[Enzyme]`), fitted to observed PK data as described in [Section 2.1](#2.1-Modeling-Strategy).
+Following oral administration of 400 mg [<sup>14</sup>C]atazanavir to healthy males, approximately 7% of the radioactive dose were recovered as unchanged drug in the urine ([US Food and Drug Administration 2002](#5-References)). Renal excretion of the unchanged drug was modeled as glomerular filtration process. The `GFR fraction` was then, together with the specific clearance via CYP3A4 normalized to the enzyme concentration (`CLspec/[Enzyme]`), fitted to observed PK data as described in [Section 2.1](#21-Modeling-Strategy).
 
 ### 2.3.2 Autoinhibition
 
-Findings from in vitro studies indicate that atazanavir irreversibly inhibits CYP3A ([US Food and Drug Administration 2002](#5-References), [Perloff 2005](#5-References)). Since no kinetic values were reported for this mechanism-based inhibition, relevant parameters in the model (`k_kinact_half` and `k_inact`) were fitted as described in [Section 2.1](#2.1-Modeling-Strategy). An attempt to fix `k_kinact_half` to a very high value (100 µmol/L) to ensure linear inhibition kinetics while fitting `k_inact` and the `GFR faction` resulted in a slightly worse description of the observed PK in the terminal phase. Hence, both `k_kinact_half` and `k_inact were` fitted together with the `GFR fraction`. This resulted in a strong correlation between the former two parameters, but also in a reduction of the total error. Furthermore, the introduction of irreversible CYP3A4 inhibition led to a slightly worse description of clearance of the single dose PK data. Furthermore, the model was found to describe the lowest and highest dose (200 and 800 mg) less accurately. Importantly, though, the PK after multiple dose administration of 300 mg and 400 mg - the only two approved doses - could be adequately captured. 
+Findings from in vitro studies indicate that atazanavir irreversibly inhibits CYP3A ([US Food and Drug Administration 2002](#5-References), [Perloff 2005](#5-References)). Since no kinetic values were reported for this mechanism-based inhibition, relevant parameters in the model (`k_kinact_half` and `k_inact`) were fitted as described in [Section 2.1](#21-Modeling-Strategy). An attempt to fix `k_kinact_half` to a very high value (100 µmol/L) to ensure linear inhibition kinetics while fitting `k_inact` and the `GFR faction` resulted in a slightly worse description of the observed PK in the terminal phase. Hence, both `k_kinact_half` and `k_inact were` fitted together with the `GFR fraction`. This resulted in a strong correlation between the former two parameters, but also in a reduction of the total error. Furthermore, the introduction of irreversible CYP3A4 inhibition led to a slightly worse description of clearance of the single dose PK data. Furthermore, the model was found to describe the lowest and highest dose (200 and 800 mg) less accurately. Importantly, though, the PK after multiple dose administration of 300 mg and 400 mg - the only two approved doses - could be adequately captured. 
 
 Of note, since neither *in vitro* data on the mechanism-based inhibition of CYP3A nor *in vivo* pharmacokinetic data on drug-drug-interactions (DDI) with a CYP3A index substrate and atazanavir as CYP3A-perpetrator were available, the model should **not** be used to predict CYP3A DDI studies unless it has been verified for this purpose.
 
@@ -135,18 +138,18 @@ The PBPK model for dapagliflozin was developed and verified with clinical pharma
 
 The next sections show:
 
-1. the final model parameters for the building blocks: [Section 3.1](#3.1 Final Input Parameters).
-2. the overall goodness of fit: [Section 3.2](#3.2 Diagnostics Plots).
-3. simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: [Section 3.3](#3.3 Concentration-Time Profiles).
+1. the final model parameters for the building blocks: [Section 3.1](#31-Final-Input-Parameters).
+2. the overall goodness of fit: [Section 3.2](#32-Diagnostics-Plots).
+3. simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: [Section 3.3](#33-Concentration-Time-Profiles).
 
 
 ## 3.1 Final input parameters
 The compound parameter values of the final PBPK model are illustrated below.
 
 
-### Compound: Atazanavir
+# Compound: Atazanavir
 
-#### Parameters
+## Parameters
 
 Name                                             | Value                   | Value Origin                            | Alternative | Default |
 ------------------------------------------------ | ----------------------- | --------------------------------------- | ----------- | ------- |
@@ -158,55 +161,55 @@ Specific intestinal permeability (transcellular) | 9.8649602504E-06 cm/min | Par
 Is small molecule                                | Yes                     |                                         |             |         |
 Molecular weight                                 | 704.8555 g/mol          | Internet-drugbank.ca                    |             |         |
 Plasma protein binding partner                   | Unknown                 |                                         |             |         |
-#### Calculation methods
+## Calculation methods
 
 Name                    | Value               |
 ----------------------- | ------------------- |
 Partition coefficients  | Rodgers and Rowland |
 Cellular permeabilities | PK-Sim Standard     |
-#### Processes
+## Processes
 
-##### Metabolizing Enzyme: CYP3A4-Optimized
+### Metabolizing Enzyme: CYP3A4-Optimized
 
 Molecule: CYP3A4
-###### Parameters
+#### Parameters
 
 Name                 | Value                   | Value Origin             |
 -------------------- | ----------------------- | ------------------------ |
 Enzyme concentration | 1 µmol/l                |                          |
 Specific clearance   | 0 1/min                 |                          |
 CLspec/[Enzyme]      | 1.0383524966 l/µmol/min | Parameter Identification |
-##### Systemic Process: Glomerular Filtration-Clinical Pharmacology Review
+### Systemic Process: Glomerular Filtration-Clinical Pharmacology Review
 
 Species: Human
-###### Parameters
+#### Parameters
 
 Name         |       Value | Value Origin             |
 ------------ | -----------:| ------------------------ |
 GFR fraction | 2.014495446 | Parameter Identification |
-##### Inhibition: CYP3A4-Perloff2005
+### Inhibition: CYP3A4-Perloff2005
 
 Molecule: CYP3A4
-###### Parameters
+#### Parameters
 
 Name          | Value                 | Value Origin             |
 ------------- | --------------------- | ------------------------ |
 kinact        | 0.0033009852632 1/min | Parameter Identification |
 K_kinact_half | 0.1292581489 µmol/l   | Parameter Identification |
-##### Inhibition: UGT1A1-PH-41095
+### Inhibition: UGT1A1-PH-41095
 
 Molecule: UGT1A1
-###### Parameters
+#### Parameters
 
 Name | Value          | Value Origin                                           |
 ---- | -------------- | ------------------------------------------------------ |
 Ki_c | 0.18986 µmol/l | In Vitro-Calculated from reported Ki and fu,mic        |
 Ki_u | 0.85437 µmol/l | In Vitro-Calculated from reported Ki, fu,mic and alpha |
 
-### Formulation: Reyataz capsule
+# Formulation: Reyataz capsule
 
 Type: Weibull
-#### Parameters
+## Parameters
 
 Name                             | Value             | Value Origin             |
 -------------------------------- | ----------------- | ------------------------ |
@@ -216,7 +219,7 @@ Dissolution shape                | 1.5566465018      | Parameter Identification 
 Use as suspension                | Yes               | Other                    |
 
 ## 3.2 Diagnostics Plots
-Below you find the goodness-of-fit visual diagnostic plots for the PBPK model performance of all data used presented in [Section 2.2.2](#2.2.2-Clinical-Data).
+Below you find the goodness-of-fit visual diagnostic plots for the PBPK model performance of all data used presented in [Section 2.2.2](#222-Clinical-Data).
 
 The first plot shows observed versus simulated plasma concentration, the second weighted residuals versus time. 
 
@@ -228,7 +231,7 @@ The first plot shows observed versus simulated plasma concentration, the second 
 GMFE = 1.498550 
 
 ## 3.3 Concentration-Time Profiles
-Simulated versus observed concentration-time profiles of all data listed in [Section 2.2.2](#2.2.2-Clinical-Data) are presented below.
+Simulated versus observed concentration-time profiles of all data listed in [Section 2.2.2](#222-Clinical-Data) are presented below.
 
 
 ![001_plotTimeProfile.png](images/003_3_Results_and_Discussion/003_3_3_Concentration-Time_Profiles/001_plotTimeProfile.png)

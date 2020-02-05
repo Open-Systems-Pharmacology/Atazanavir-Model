@@ -1,6 +1,9 @@
 # Building and evaluation of a PBPK model for atazanavir in healthy adults
 
 
+
+
+
 | Evaluation report version       | 1.0                                                          |
 | ------------------------------- | ------------------------------------------------------------ |
 | Repository                      | https://github.com/Open-Systems-Pharmacology/Atazanavir-Model |
@@ -22,13 +25,12 @@
     * [3.3 Concentration-Time Profiles](#3.3-concentration-time-profiles)
   * [4 Conclusion](#4-conclusion)
   * [5 References](#5-references)
-
 # 1 Introduction
 The presented model building and evaluation report evaluates the performance of a PBPK model for atazanavir in healthy adults.
 
 Atazanavir, sold under the trade name Reyataz among others, is an azapeptide protease inhibitor and used as antiretroviral medication to treat and prevent HIV/AIDS. It is taken orally once a day at a dose of 300 mg, if co-administered with ritonavir 100 mg orally once a day, and 400 mg, if administered without ritonavir. 
 
-After oral administration, atazanavir is rapidly absorbed. A positive food effect has been observed, atazanavir is recommended to be taken with food. Protein binding is relatively high (86%) and independent of the concentration of serum proteins ([US Food and Drug Administration 2002](#5-References)). Atazanavir undergoes extensive metabolism by CYP3A isoenzymes with a dose fraction excreted unchanged in urine of approximately 7% ([US Food and Drug Administration 2002](# 5-References), [Le Tiec 2005](#5-References)). Previous in vitro studies suggest that atazanavir is a mechanism-based inhibitor of CYP3A ([US Food and Drug Administration 2002](#5-References), [Perloff 2005](#5-References)).
+After oral administration, atazanavir is rapidly absorbed. A positive food effect has been observed, atazanavir is recommended to be taken with food. Protein binding is relatively high (86%) and independent of the concentration of serum proteins ([US Food and Drug Administration 2002](#5-References)). Atazanavir undergoes extensive metabolism by CYP3A isoenzymes with a dose fraction excreted unchanged in urine of approximately 7% ([US Food and Drug Administration 2002](#5-References), [Le Tiec 2005](#5-References)). Previous in vitro studies suggest that atazanavir is a mechanism-based inhibitor of CYP3A ([US Food and Drug Administration 2002](#5-References), [Perloff 2005](#5-References)).
 
 The presented atazanavir PBPK model as well as the respective evaluation plan and evaluation report are provided open-source  (https://github.com/Open-Systems-Pharmacology/Atazanavir-Model).
 
@@ -61,6 +63,10 @@ Of note, since neither *in vitro* data on the kinetics of the mechanism-based in
 Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#2.2-Data).
 
 Details about the structural model and its parameters can be found in [Section 2.3](#2.3-Model-Parameters-and-Assumptions).
+
+
+
+
 
 
 ## 2.2 Data
@@ -132,15 +138,16 @@ The PBPK model for dapagliflozin was developed and verified with clinical pharma
 
 The next sections show:
 
-1. the final model parameters for the building blocks: [Section 3.1](#3.1 Final Input Parameters).
-2. the overall goodness of fit: [Section 3.2](#3.2 Diagnostics Plots).
-3. simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: [Section 3.3](#3.3 Concentration-Time Profiles).
+1. the final model parameters for the building blocks: [Section 3.1](#3.1-Final-Input-Parameters).
+2. the overall goodness of fit: [Section 3.2](#3.2-Diagnostics-Plots).
+3. simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: [Section 3.3](#3.3-Concentration-Time-Profiles).
 
 
 
 #  
 ## 3.1 Final input parameters
 The compound parameter values of the final PBPK model are illustrated below.
+
 
 ### Compound: Atazanavir
 
@@ -174,8 +181,7 @@ Name                 | Value                   | Value Origin             |
 Enzyme concentration | 1 µmol/l                |                          |
 Specific clearance   | 0 1/min                 |                          |
 CLspec/[Enzyme]      | 1.0383524966 l/µmol/min | Parameter Identification |
-#  
-##### Systemic Process: Glomerular Filtration-Clinical Pharmacology Review
+### Systemic Process: Glomerular Filtration-Clinical Pharmacology Review
 
 Species: Human
 ###### Parameters
@@ -214,7 +220,6 @@ Lag time                         | 0 min             |                          
 Dissolution shape                | 1.5566465018      | Parameter Identification |
 Use as suspension                | Yes               | Other                    |
 
-#  
 ## 3.2 Diagnostics Plots
 Below you find the goodness-of-fit visual diagnostic plots for the PBPK model performance of all data used presented in [Section 2.2.2](#2.2.2-Clinical-Data).
 
@@ -227,7 +232,6 @@ The first plot shows observed versus simulated plasma concentration, the second 
 
 GMFE = 1.498550 
 
-#  
 ## 3.3 Concentration-Time Profiles
 Simulated versus observed concentration-time profiles of all data listed in [Section 2.2.2](#2.2.2-Clinical-Data) are presented below.
 
