@@ -4,10 +4,10 @@
 
 
 
-| Version     | 0.1                                                          |
-| ----------- | ------------------------------------------------------------ |
-| Release     |                                                              |
-| Repository  | https://github.com/Open-Systems-Pharmacology/Atazanavir-Model |
-| OSP Version | 8.0                                                          |
-| Author      | André Dallmann (AndreDlm)                                    |
+| Evaluation report version       | 1.0                                                          |
+| ------------------------------- | ------------------------------------------------------------ |
+| Repository                      | https://github.com/Open-Systems-Pharmacology/Atazanavir-Model |
+| OSP version                     | 8.0                                                          |
+| Qualification framework version | 2.1                                                          |
+| Author                          | André Dallmann (AndreDlm)                                    |
 

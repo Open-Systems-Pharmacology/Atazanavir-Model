@@ -1,9 +1,9 @@
 ﻿{
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.0/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Atazanavir",
-            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atazanavir-Model/master/Atazanavir.json",
+            "Path": "../../Atazanavir.json",
             "BuildingBlocks": []
         }
     ],
