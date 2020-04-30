@@ -18,9 +18,9 @@ Structural model selection was mainly guided by visual inspection of the resulti
 
 Of note, since neither *in vitro* data on the kinetics of the mechanism-based inhibition of CYP3A nor *in vivo* pharmacokinetic data on drug-drug-interactions (DDI) with a CYP3A index substrate and atazanavir as CYP3A-perpetrator were available, the model should **not** be used to predict CYP3A DDI studies unless it has been verified for this purpose.
 
-Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#2.2-Data).
+Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-Data).
 
-Details about the structural model and its parameters can be found in [Section 2.3](#2.3-Model-Parameters-and-Assumptions).
+Details about the structural model and its parameters can be found in [Section 2.3](#23-Model-Parameters-and-Assumptions).
 
 
 

@@ -3,7 +3,7 @@
     "Projects": [
         {
             "Id": "Atazanavir",
-            "Path": "../../Atazanavir.json",
+            "Path": "../../Atazanavir-Model.json",
             "BuildingBlocks": []
         }
     ],
