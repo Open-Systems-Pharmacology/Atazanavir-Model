@@ -2,7 +2,7 @@
 
 A literature search was carried out to collect available information on physicochemical properties of atazanavir. The obtained information from the literature is summarized in the table below and is used for model building.
 
-| **Parameter**          | **Unit** | **Raltegravir literature**                                   | **Description**                                       |
+| **Parameter**          | **Unit** | **Value**                                   | **Description**                                       |
 | :--------------------- | -------- | ------------------------------------------------------------ | ----------------------------------------------------- |
 | Molecular weight       | g/mol    | 704.9 ([drugbank.ca](#5-References))                         | Molecular weight                                      |
 | pK<sub>a</sub> (basic) |          | 4.7 ([Berlin 2015](#5-References))                           | Acid dissociation constant                            |
