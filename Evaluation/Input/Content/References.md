@@ -39,6 +39,8 @@ efficacy and tolerability of atazanavir. *Clin Pharmacokinet.* 2005, 44(10): 103
 
 **Willmann 2007** Willmann S, Höhn K, Edginton A, Sevestre M, Solodenko J, Weiss W, Lippert J, Schmitt W. Development of a physiology-based whole-body population model for assessing the influence of individual variability on the pharmacokinetics of drugs. *J Pharmacokinet Pharmacodyn* 2007, 34(3): 401-431.
 
+**Zhang 2005** Zhang D, Chando TJ, Everett DW, Patten CJ, Dehal SS, Humphreys WG. In vitro inhibition of UDP glucuronosyltransferases by atazanavir and other HIV protease inhibitors and the relationship of this property to in vivo bilirubin glucuronidation. *Drug Metab Dispos* 2005, 33(11): 1729-1739.
+
 **Zhu 2010** Zhu L, Butterton J, Persson A, Stonier M, Comisar W, Panebianco D, et al. Pharmacokinetics and safety of twice-daily atazanavir 300 mg and raltegravir 400 mg in healthy individuals. *Antivir Ther* 2010, 15(8): 1107-1114.
 
 **Zhu 2011** Zhu L, Persson A, Mahnke L, Eley T, Li T, Xu X, et al. Effect of low‐dose omeprazole (20 mg Daily) on the pharmacokinetics of multiple‐dose atazanavir with ritonavir in healthy subjects. *J Clin Pharmacol* 2011, 51(3): 368-377.
