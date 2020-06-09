@@ -7,8 +7,9 @@ tic
 
 % --------------------------------------------------------------
 % replace qualificationRunnerFolder and markdownJoinerFolder with your paths
-qualificationRunnerFolder = 'C:\Software\QualificationRunner 8.0.51';
+qualificationRunnerFolder = 'C:\Software\QualificationRunner 9.0.86';
 markdownJoinerFolder = 'C:\Software\markdown-joiner';
+PKSimPortableFolder = 'C:\Software\pk-sim-portable-setup\PK-Sim_9.0.165';
 
 % --------------------------------------------------------------
 % replace baseDir and qualificationPlanName with your paths
@@ -22,7 +23,7 @@ markdownJoinerFolder = 'C:\Software\markdown-joiner';
 %   - report
 %
 
-baseDir = fullfile(cd);
+basisDir = 'C:\Atazanavir-Model\Evaluation\';
 qualificationPlanName = 'evaluation_plan.json';
 
 % In case your folder structure is different from assumed above, 
@@ -35,14 +36,14 @@ qualificationPlanName = 'evaluation_plan.json';
 %                  CAUTION: if the folder is not empty, its contents will be deleted
 %
 % - ReportOutput_path: final report will be generated here
-qualificationPlan = fullfile(baseDir,'input',qualificationPlanName);
-REInput_path = fullfile(baseDir,'re_input');
-REOutput_path = fullfile(baseDir,'re_output');
-ReportOutput_path=fullfile(baseDir,'report');
+qualificationPlan = fullfile(basisDir,'Input',qualificationPlanName);
+REInput_path = fullfile(basisDir,'re_input');
+REOutput_path = fullfile(basisDir,'re_output');
+ReportOutput_path=fullfile(basisDir,'report');
 
 % --------------------------------------------------------------
 % STEP #1: start qualification runner to generate inputs for the reporting engine
-startQualificationRunner(qualificationRunnerFolder, qualificationPlan, REInput_path);
+startQualificationRunner(qualificationRunnerFolder, qualificationPlan, REInput_path, ['-p ' PKSimPortableFolder]);
 
 % --------------------------------------------------------------
 % STEP #2: start reporting engine
@@ -70,4 +71,3 @@ status = system(['"' MarkdownJoiner_path '" -i "' REOutput_path '" -o "' ReportO
 %status = system(['"' MarkdownJoiner_path '" -i "' REOutput_path '" -o "' ReportOutput_path '" -f']);
 
 if status~=0 error('MarkdownJoiner failed'); end
-
