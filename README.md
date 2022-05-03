@@ -15,7 +15,7 @@ This repository contains:
 
 This atazanavir model is intended to be used as perpetrator drug in UGT1A1-mediated drug-drug interactions (DDI). 
 
-This  whole-body atazanavir PBPK model comprises metabolim by CYP3A4, glomerular filtration and mechanism-based inhibition of CYP3A4 (this inhibition has not been evaluated and is hence to be regarded preliminary; further work is needed before this model can be applied to predict CYP3A4 DDIs). The atazanavir PBPK model has been developed and evaluated based on clinical data obtained from the scientific literature for oral administration of single or multiple doses ranging from 200 - 800 mg. 
+This  whole-body atazanavir PBPK model comprises metabolism by CYP3A4, glomerular filtration and mechanism-based inhibition of CYP3A4 (this inhibition has not been evaluated and is hence to be regarded preliminary; further work is needed before this model can be applied to predict CYP3A4 DDIs). The atazanavir PBPK model has been developed and evaluated based on clinical data obtained from the scientific literature for oral administration of single or multiple doses ranging from 200 - 800 mg. 
 
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
