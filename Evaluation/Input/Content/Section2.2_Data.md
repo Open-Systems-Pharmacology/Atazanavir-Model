@@ -17,7 +17,7 @@ With regard to UGT1A1 inhibition, atazanavir inhibited 17β-Estradiol glucuronid
 | :--------------- | -------- | --------- | ------------------------------ | ------------------------------------ |
 | K<sub>i</sub>    | µmol/L   | 0.22      | [Jungmann 2019](#5-references) | Inhibition constant                  |
 | Alpha            |          | 4.5       | [Jungmann 2019](#5-references) | Alpha value in mixed-type inhibition |
-| fu<sub>mic</sub> | %        | 0.863     | [Fricke 2020](#5-references)   | determined *in vitro* at 0.22 µmol/L |
+| fu<sub>mic</sub> |          | 0.863     | [Fricke 2020](#5-references)   | determined *in vitro* at 0.22 µmol/L |
 
 ### 2.2.2 Clinical data
 
