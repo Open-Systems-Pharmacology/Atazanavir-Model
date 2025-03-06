@@ -5,631 +5,7 @@
       "Type": "Enzyme",
       "Species": "Human",
       "Molecule": "CYP3A4",
-      "Category": "Agarwala2003",
-      "Parameters": [
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        }
-      ],
-      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-      "Ontogeny": {
-        "Name": "CYP3A4"
-      }
-    },
-    {
-      "Type": "Enzyme",
-      "Species": "Human",
-      "Molecule": "CYP3A4",
-      "Category": "Agarwala2005a",
-      "Parameters": [
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        }
-      ],
-      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-      "Ontogeny": {
-        "Name": "CYP3A4"
-      }
-    },
-    {
-      "Type": "Enzyme",
-      "Species": "Human",
-      "Molecule": "CYP3A4",
-      "Category": "Agarwala2005b",
-      "Parameters": [
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        }
-      ],
-      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-      "Ontogeny": {
-        "Name": "CYP3A4"
-      }
-    },
-    {
-      "Type": "Enzyme",
-      "Species": "Human",
-      "Molecule": "CYP3A4",
-      "Category": "Martin2008",
-      "Parameters": [
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        }
-      ],
-      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-      "Ontogeny": {
-        "Name": "CYP3A4"
-      }
-    },
-    {
-      "Type": "Enzyme",
-      "Species": "Human",
-      "Molecule": "CYP3A4",
-      "Category": "Zhu2011",
-      "Parameters": [
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        }
-      ],
-      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-      "Ontogeny": {
-        "Name": "CYP3A4"
-      }
-    },
-    {
-      "Type": "Enzyme",
-      "Species": "Human",
-      "Molecule": "CYP3A4",
-      "Category": "WhiteAmericanMale",
-      "Parameters": [
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        }
-      ],
-      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-      "Ontogeny": {
-        "Name": "CYP3A4"
-      }
-    },
-    {
-      "Type": "Enzyme",
-      "Species": "Human",
-      "Molecule": "CYP3A4",
-      "Category": "WhiteAmericanFemale",
-      "Parameters": [
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        }
-      ],
-      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-      "Ontogeny": {
-        "Name": "CYP3A4"
-      }
-    },
-    {
-      "Type": "Enzyme",
-      "Species": "Human",
-      "Molecule": "CYP3A4",
-      "Category": "Zhu2010",
-      "Parameters": [
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 1380.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        }
-      ],
-      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-      "Ontogeny": {
-        "Name": "CYP3A4"
-      }
-    },
-    {
-      "Type": "Enzyme",
-      "Species": "Human",
-      "Molecule": "CYP3A4",
-      "Category": "Acosta2007",
+      "Category": "Healthy",
       "Parameters": [
         {
           "Path": "CYP3A4|Reference concentration",
@@ -722,7 +98,7 @@
         }
       },
       "ExpressionProfiles": [
-        "CYP3A4|Human|Agarwala2003"
+        "CYP3A4|Human|Healthy"
       ]
     },
     {
@@ -742,7 +118,7 @@
         }
       },
       "ExpressionProfiles": [
-        "CYP3A4|Human|Agarwala2005a"
+        "CYP3A4|Human|Healthy"
       ]
     },
     {
@@ -762,7 +138,7 @@
         }
       },
       "ExpressionProfiles": [
-        "CYP3A4|Human|Agarwala2005b"
+        "CYP3A4|Human|Healthy"
       ]
     },
     {
@@ -790,7 +166,7 @@
         }
       },
       "ExpressionProfiles": [
-        "CYP3A4|Human|Martin2008"
+        "CYP3A4|Human|Healthy"
       ]
     },
     {
@@ -810,7 +186,7 @@
         }
       },
       "ExpressionProfiles": [
-        "CYP3A4|Human|Zhu2011"
+        "CYP3A4|Human|Healthy"
       ]
     },
     {
@@ -830,7 +206,7 @@
         }
       },
       "ExpressionProfiles": [
-        "CYP3A4|Human|WhiteAmericanMale"
+        "CYP3A4|Human|Healthy"
       ]
     },
     {
@@ -850,7 +226,7 @@
         }
       },
       "ExpressionProfiles": [
-        "CYP3A4|Human|WhiteAmericanFemale"
+        "CYP3A4|Human|Healthy"
       ]
     },
     {
@@ -878,7 +254,7 @@
         }
       },
       "ExpressionProfiles": [
-        "CYP3A4|Human|Zhu2010"
+        "CYP3A4|Human|Healthy"
       ]
     },
     {
@@ -902,7 +278,7 @@
         }
       },
       "ExpressionProfiles": [
-        "CYP3A4|Human|Acosta2007"
+        "CYP3A4|Human|Healthy"
       ]
     }
   ],
