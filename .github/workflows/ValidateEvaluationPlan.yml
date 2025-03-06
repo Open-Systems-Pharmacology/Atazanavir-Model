@@ -10,4 +10,4 @@ jobs:
   Validate-Evaluation-Plan:
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/ValidateQualificationPlan.yml@main
     with:
-      qualification-plan: 'Evaluation/Input/evaluation_plan.json'
+      qualification-plan: 'Evaluation/Input/Evaluation_plan.json'
