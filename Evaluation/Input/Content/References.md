@@ -1,11 +1,11 @@
 **Acosta 2007** Acosta EP, Kendall MA, Gerber JG, Alston-Smith B, Koletar SL, Zolopa AR, et al. Effect of concomitantly administered rifampin on the pharmacokinetics and safety of atazanavir administered twice daily. *Antimicrob Agents Chemother* 2007, 51(9): 3104-3110.
 
 **Agarwala 2003** Agarwala S, Grasela D, Child M, Geraldes M, Geiger M, O’Mara E. Characterization of the steady-state pharmacokinetic (PK) profile of atazanavir (ATV) beyond the 24-hour 
-dosing interval. Poster presented at *2nd International AIDS Society Conference on HIV Pathogenesis and Treatment*, Paris, 2003. (http://www.medadvocates.org/resources/conferences/iasconfpath/ias2003/atv%20pk%20past%2024%20hour%20interval.pdf), accessed on 07-30-2019.
+dosing interval. Poster presented at *2nd International AIDS Society Conference on HIV Pathogenesis and Treatment*, Paris, 2003.
 
-**Agarwala 2005a** Agarwala S, Eley T, Child M, Wang Y, Hughes E, Grasela D. Pharmacokinetic effects of coadministration of atazanavir and tenofovir at steady state. Poster presented at *3rd International AIDS Society Conference on HIV Pathogenesis and Treatment*, Rio de Janeiro, 2005a. (http://www.medadvocates.org/resources/conferences/3rd%20_ias/05-156a_agarwala_086.pdf), accessed on 07-30-2019.
+**Agarwala 2005a** Agarwala S, Eley T, Child M, Wang Y, Hughes E, Grasela D. Pharmacokinetic effects of coadministration of atazanavir and tenofovir at steady state. Poster presented at *3rd International AIDS Society Conference on HIV Pathogenesis and Treatment*, Rio de Janeiro, 2005a.
 
-**Agarwala 2005b** Agarwala S, Gray K, Eley T, Wang Y, Hughes E, Grasela D. Pharmacokinetic interaction between atazanavir and omeprazole in healthy subjects. Poster presented at *3rd International AIDS Society Conference on HIV Pathogenesis and Treatment*, Rio de Janeiro, 2005b. (http://www.medadvocates.org/resources/conferences/3rd%20_ias/05-156b_agarwala_109.pdf), accessed on 07-30-2019
+**Agarwala 2005b** Agarwala S, Gray K, Eley T, Wang Y, Hughes E, Grasela D. Pharmacokinetic interaction between atazanavir and omeprazole in healthy subjects. Poster presented at *3rd International AIDS Society Conference on HIV Pathogenesis and Treatment*, Rio de Janeiro, 2005b.
 
 **Berlin 2015** Berlin M, Ruff A, Kesisoglou F, Xu W, Wang MH, Dressman JB. Advances and challenges in PBPK modeling–analysis of factors contributing to the oral absorption of atazanavir, a poorly soluble weak base. *Eur J Pharm Biopharm* 2015, 93: 267-280.
 
