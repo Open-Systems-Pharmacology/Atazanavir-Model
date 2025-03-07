@@ -1,5 +1,5 @@
-﻿{
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.3/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Atazanavir",
@@ -122,104 +122,107 @@
             {
                 "Project": "Atazanavir",
                 "Simulation": "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "FDA-ClinPharmReview_AI424-028_200mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "FDA-ClinPharmReview_AI424-040_200mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "Acosta2007_300mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "FDA-ClinPharmReview_AI424-056_300mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "Zhu2010_300mg_Atazanavir",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "Agarwala2003_400mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "Agarwala2005a_400mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "Agarwala2005b_400mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "FDA-ClinPharmReview_AI424-028_400mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "FDA-ClinPharmReview_AI424-040_400mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "FDA-ClinPharmReview_AI424-076_400mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "Martin2008_400mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "Zhu2011_400mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "FDA-ClinPharmReview_AI424-040_800mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Atazanavir",
                 "Simulation": "FDA-ClinPharmReview_AI424-076_800mg",
-                "SectionId": 33
+                "SectionReference": "ct-profiles"
             }
         ],
         "GOFMergedPlots": [
             {
                 "Title": "Goodness of fit plot for concentration in plasma",
-                "SectionId": 32,
-                "PlotType": "predictedVsObserved|residualsOverTime",
+                "SectionReference": "diagnostics-plots",
+                "PlotTypes": [
+                    "predictedVsObserved",
+                    "residualsOverTime"
+                ],
                 "Groups": [
                     {
                         "Caption": "Atazanavir plasma concentrations",
@@ -372,73 +375,73 @@
             "Name": "Atazanavir",
             "Project": "Atazanavir",
             "Type": "Compound",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "Reyataz capsule",
             "Project": "Atazanavir",
             "Type": "Formulation",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         }
     ],
     "Sections": [
         {
-            "Id": 1,
-            "Title": "1 Introduction",
+            "Reference": "introduction",
+            "Title": "Introduction",
             "Content": "Content/Section1_Introduction.md"
         },
         {
-            "Id": 2,
-            "Title": "2 Methods",
+            "Reference": "methods",
+            "Title": "Methods",
             "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
-                    "Id": 21,
-                    "Title": "2.1 Modeling Strategy",
+                    "Reference": "modeling-strategy",
+                    "Title": "Modeling Strategy",
                     "Content": "Content/Section2.1_Modeling_Strategy.md"
                 },
                 {
-                    "Id": 22,
-                    "Title": "2.2 Data",
+                    "Reference": "data",
+                    "Title": "Data",
                     "Content": "Content/Section2.2_Data.md"
                 },
                 {
-                    "Id": 23,
-                    "Title": "2.3 Model Parameters and Assumptions",
+                    "Reference": "model-parameters-and-assumptions",
+                    "Title": "Model Parameters and Assumptions",
                     "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
                 }
             ]
         },
         {
-            "Id": 3,
-            "Title": "3 Results and Discussion",
+            "Reference": "results-and-discussion",
+            "Title": "Results and Discussion",
             "Content": "Content/Section3_Results_and_Discussion.md",
             "Sections": [
                 {
-                    "Id": 31,
-                    "Title": "3.1 Final input parameters",
+                    "Reference": "final-input-parameters",
+                    "Title": "Final input parameters",
                     "Content": "Content/Input_table.md"
                 },
                 {
-                    "Id": 32,
-                    "Title": "3.2 Diagnostics Plots",
+                    "Reference": "diagnostics-plots",
+                    "Title": "Diagnostics Plots",
                     "Content": "Content/GOF_diagnostics.md"
                 },
                 {
-                    "Id": 33,
-                    "Title": "3.3 Concentration-Time Profiles",
+                    "Reference": "ct-profiles",
+                    "Title": "Concentration-Time Profiles",
                     "Content": "Content/Concentration_time_profiles.md"
                 }
             ]
         },
         {
-            "Id": 4,
-            "Title": "4 Conclusion",
+            "Reference": "conclusion",
+            "Title": "Conclusion",
             "Content": "Content/Section4_Conclusion.md"
         },
         {
-            "Id": 5,
-            "Title": "5 References",
+            "Reference": "references",
+            "Title": "References",
             "Content": "Content/References.md"
         }
     ],
